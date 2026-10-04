@@ -1,0 +1,11 @@
+import { chromium } from 'playwright';
+const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--no-sandbox']});
+const page=await browser.newPage({viewport:{width:1440,height:900},deviceScaleFactor:1});
+page.on('console',msg=>{if(msg.type()==='error') console.log('CONSOLE',msg.text().slice(0,250));});
+await page.goto('file:///Users/bao/Documents/ChatGPT/DataCenterLocator/infrastructure-inheritance-symbiosis/outputs/infrastructure_inheritance_symbiosis.html',{waitUntil:'domcontentloaded',timeout:60000});
+await page.waitForTimeout(5000);
+console.log('TITLE',await page.title());
+console.log('TEXT', (await page.locator('body').innerText()).slice(0,2600));
+console.log('BUTTONS',await page.locator('button').allTextContents());
+await page.screenshot({path:'presentation/.build/explorer_full.png',fullPage:true});
+await browser.close();

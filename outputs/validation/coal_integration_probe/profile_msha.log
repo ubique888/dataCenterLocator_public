@@ -1,0 +1,145 @@
+{
+  "msha_rows": 92037,
+  "msha_unique_ids": 92037,
+  "coal_rows": 35734,
+  "coal_status": {
+    "Abandoned": 25618,
+    "Abandoned and Sealed": 8811,
+    "Active": 573,
+    "NonProducing": 319,
+    "Temporarily Idled": 281,
+    "New Mine": 132
+  },
+  "coal_types": {
+    "Surface": 17623,
+    "Underground": 14589,
+    "Facility": 3413,
+    "<NA>": 109
+  },
+  "coal_states": {
+    "KY": 13696,
+    "WV": 7014,
+    "PA": 4529,
+    "VA": 3969,
+    "AL": 1733,
+    "TN": 1398,
+    "OH": 1217,
+    "IN": 586,
+    "IL": 325,
+    "OK": 248,
+    "MD": 180,
+    "CO": 173,
+    "UT": 128,
+    "AR": 114,
+    "WY": 90,
+    "MO": 56,
+    "TX": 43,
+    "NM": 41,
+    "MT": 36,
+    "GA": 33,
+    "IA": 31,
+    "KS": 30,
+    "ND": 23,
+    "AK": 10,
+    "WA": 8,
+    "AZ": 5,
+    "LA": 5,
+    "CA": 4,
+    "NC": 3,
+    "MS": 2,
+    "NY": 2,
+    "SD": 1,
+    "OR": 1
+  },
+  "coal_valid_nonzero_coordinates": 23944,
+  "coal_us_plausible_coordinates": 23342,
+  "coal_missing_coordinate_rows": 11727,
+  "coal_zero_coordinate_rows": 0,
+  "coal_coordinate_coverage_by_status": {
+    "Abandoned": {
+      "rows": 25618,
+      "usable_coordinates": 13597
+    },
+    "Abandoned and Sealed": {
+      "rows": 8811,
+      "usable_coordinates": 8537
+    },
+    "Active": {
+      "rows": 573,
+      "usable_coordinates": 573
+    },
+    "New Mine": {
+      "rows": 132,
+      "usable_coordinates": 35
+    },
+    "NonProducing": {
+      "rows": 319,
+      "usable_coordinates": 319
+    },
+    "Temporarily Idled": {
+      "rows": 281,
+      "usable_coordinates": 281
+    }
+  },
+  "current_sites": 8479,
+  "current_aml_rows": 4079,
+  "current_explicit_coal_program_rows": 3626,
+  "current_aml_programs": {
+    "PENNSYLVANIA ABANDONED COAL MINE LANDS": 2289,
+    "WEST VIRGINIA ABANDONED COAL MINE AREAS": 1229,
+    "MISSOURI INDUSTRIAL MINERALS UNIT": 286,
+    "VIRGINIA ABANDONED COAL MINE AREAS": 108,
+    "VIRGINIA ORPHAN LAND PROGRAM": 83,
+    "SUPERFUND": 33,
+    "MISSOURI ABANDONED MINE LAND": 16,
+    "BROWNFIELDS": 12,
+    "MISSOURI METALLIC MINERALS UNIT": 7,
+    "MINNESOTA POLLUTION CONTROL AGENCY REMEDIATION SITES": 3,
+    "COLORADO INSTITUTIONAL CONTROL": 3,
+    "MARYLAND LAND RESTORATION PROGRAM": 2,
+    "LANDFILL METHANE OUTREACH PROGRAM": 2,
+    "AML": 2,
+    "OREGON DEQ ENVIRONMENTAL CLEANUP PROGRAM": 2,
+    "RCRA": 1,
+    "CALIFORNIA DTSC CLEANUP PROGRAM": 1
+  },
+  "current_exact_source_id_equal_msha": 0,
+  "current_aml_exact_source_id_equal_msha": 0,
+  "proximity_is_identity": false,
+  "proximity_counts": {
+    "all": {
+      "0.1": 33,
+      "0.5": 622,
+      "1": 1463,
+      "2": 2738,
+      "5": 3738
+    },
+    "aml": {
+      "0.1": 32,
+      "0.5": 605,
+      "1": 1431,
+      "2": 2649,
+      "5": 3543
+    },
+    "explicit_coal_program": {
+      "0.1": 32,
+      "0.5": 604,
+      "1": 1428,
+      "2": 2646,
+      "5": 3533
+    }
+  },
+  "feature_contract_dry_run": {
+    "rows": 8479,
+    "unique_site_ids": true,
+    "ids_preserved": true,
+    "extra_fields_preserved": true,
+    "scores_unchanged": true,
+    "production_written": false
+  },
+  "existing_frontend_export_dry_run": {
+    "records": 8479,
+    "new_mine_fields_exported": false,
+    "interpretation": "Explicit exporter mapping must be extended to display new fields."
+  }
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Infrastructure Inheritance &amp; Symbiosis</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <style>__STYLES__</style>
+</head>
+<body>
+  <div class="app">
+    <header class="masthead">
+      <div class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="brand-copy">
+        <h1>Infrastructure Inheritance &amp; Symbiosis</h1>
+        <p>Find sites that may inherit infrastructure and join an industrial ecosystem.</p>
+      </div>
+      <nav id="view-switch" class="view-switch" aria-label="Site analysis view" __CONNECTIVITY_HIDDEN__>
+        <button id="connectivity-view-button" type="button" aria-pressed="true">Power &amp; connectivity</button>
+        <button id="legacy-view-button" type="button" aria-pressed="false">Inheritance &amp; symbiosis</button>
+      </nav>
+      <div class="header-count"><strong id="header-count">8,479</strong><span>screened sites</span></div>
+    </header>
+    <p id="connectivity-source-note" class="candidate-scope" __CONNECTIVITY_HIDDEN__>
+      Existing EPA screened candidates · ≥50-acre source cohort ·
+      <time id="epa-source-version"></time> · PeeringDB retrieved
+      <time id="peering-retrieved-at"></time> · snapshot <span id="peering-snapshot-id"></span>
+    </p>
+    <div class="workspace">
+      <aside class="filters" aria-label="Site filters">
+        <div class="filter-heading"><h2>Screen the sites</h2><button id="reset-filters" type="button">Reset</button></div>
+        <p class="filter-intro">Start with EPA sites that passed land and grid proximity criteria.</p>
+        <label class="check-row"><input class="filter-control" id="former-only" type="checkbox"><span>Evidence-backed former power match only</span></label>
+        <label class="filter-field">Minimum acreage <input class="filter-control" id="min-acreage" type="number" min="0" step="10" value="50"></label>
+        <label class="filter-field">Minimum transmission voltage <span class="unit">kV</span><input class="filter-control" id="min-transmission-kv" type="number" min="0" step="5" value="115"></label>
+        <label class="filter-field">Maximum transmission distance <span class="unit">mi</span><input class="filter-control" id="max-transmission-mi" type="number" min="0" step="0.1" value="3"></label>
+        <label class="filter-field">Maximum substation distance <span class="unit">mi</span><input class="filter-control" id="max-substation-mi" type="number" min="0" step="0.1" value="5"></label>
+        <label class="filter-field">Minimum inheritance score <input class="filter-control" id="min-inheritance" type="number" min="0" max="100" step="1" value="0"></label>
+        <label class="filter-field">Minimum symbiosis score <input class="filter-control" id="min-symbiosis" type="number" min="0" max="100" step="1" value="0"></label>
+        <div class="filter-result"><strong id="visible-count">8,479</strong><span>sites match</span></div>
+        <p class="source-note">EPA RE-Powering screening, EIA retired generators, EPA FRS and CWNS. Scores are screening signals, not feasibility findings.</p>
+      </aside>
+      <main class="map-wrap">
+        <div id="map" role="application" aria-label="Map of screened candidate sites"></div>
+        <div class="map-caption"><span class="legend-dot dot-high"></span>High on both axes <span class="legend-dot dot-power"></span>Power match <span class="legend-dot dot-other"></span>Other candidate</div>
+        <div id="map-error" class="map-error" hidden>Map tiles or scripts could not load. Connect to the internet and reopen this page.</div>
+      </main>
+      <section id="connectivity-workspace" class="connectivity-workspace" aria-label="Power and connectivity screening" hidden>
+        <aside class="connectivity-filters" aria-label="Power and connectivity filters">
+          <div class="filter-heading"><h2>Power &amp; connectivity</h2><button id="reset-connectivity-filters" type="button">Reset</button></div>
+          <p class="filter-intro">All thresholds start unrestricted. Distances show geographic proximity only.</p>
+          <label class="filter-field">Maximum substation distance <span class="unit">km</span><input id="max-substation-km" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Any"></label>
+          <p id="max-substation-km-error" class="filter-error" aria-live="polite"></p>
+          <label class="filter-field">Maximum interconnection facility distance <span class="unit">km</span><input id="max-peering-km" type="number" min="0" step="0.01" inputmode="decimal" placeholder="Any"></label>
+          <p id="max-peering-km-error" class="filter-error" aria-live="polite"></p>
+          <label class="filter-field">Minimum networks at that facility <input id="min-peering-networks" type="number" min="0" step="1" inputmode="numeric" placeholder="Any"></label>
+          <p id="min-peering-networks-error" class="filter-error" aria-live="polite"></p>
+          <label class="check-row"><input id="show-matched-facilities" type="checkbox"><span>Show matched interconnection facilities</span></label>
+          <div class="filter-result"><strong id="connectivity-visible-count">0</strong><span>sites match</span></div>
+          <p id="connectivity-missing-note" class="source-note"></p>
+          <p class="source-note">A listed IXP facility is a geographic screening proxy. Network count is not bandwidth, latency, or a service commitment.</p>
+        </aside>
+        <main class="connectivity-main">
+          <div class="connectivity-toolbar">
+            <div class="view-tabs" role="group" aria-label="Connectivity display">
+              <button class="connectivity-view-tab" type="button" data-view="map" aria-pressed="true">Map</button>
+              <button class="connectivity-view-tab" type="button" data-view="compare" aria-pressed="false">Compare</button>
+              <button class="connectivity-view-tab" type="button" data-view="table" aria-pressed="false">Table</button>
+            </div>
+            <label class="color-control">Color by
+              <select id="connectivity-color-by">
+                <option value="peerKm">Interconnection facility distance</option>
+                <option value="subKm">Substation distance</option>
+                <option value="peerNetworks">Networks at nearest facility</option>
+              </select>
+            </label>
+          </div>
+          <section id="connectivity-map-panel" class="connectivity-map-panel" aria-label="Connectivity candidate map">
+            <div id="connectivity-map" role="application" aria-label="Map of screened sites and nearest listed interconnection facilities"></div>
+            <div id="connectivity-map-error" class="map-error" hidden>Map tiles or scripts could not load. Filters and the other views remain available.</div>
+            <div id="connectivity-map-legend" class="connectivity-map-legend" aria-live="polite"></div>
+            <p class="geographic-association-note">Geographic association only — not a fiber route.</p>
+          </section>
+          <section id="connectivity-compare-container" class="connectivity-placeholder" aria-label="Connectivity comparison" hidden>
+            <canvas id="connectivity-compare-canvas" tabindex="0" role="img" aria-label="Scatter plot of substation and interconnection facility distances"></canvas>
+            <div id="connectivity-compare-axes" class="compare-axis-note"></div>
+            <p id="connectivity-plot-missing" class="plot-missing-note" aria-live="polite"></p>
+            <div id="connectivity-plot-tooltip" class="plot-tooltip" role="status" hidden></div>
+          </section>
+          <section id="connectivity-table-container" class="connectivity-placeholder" aria-label="Connectivity table" hidden>
+            <table class="connectivity-table"><caption class="sr-only">Screened candidate power and connectivity indicators</caption><thead><tr>
+              <th scope="col">Site</th><th scope="col">State</th>
+              <th scope="col" aria-sort="none"><button type="button" data-sort="subKm">Substation km</button></th>
+              <th scope="col" aria-sort="ascending"><button type="button" data-sort="peerKm">Facility km ↑</button></th>
+              <th scope="col" aria-sort="none"><button type="button" data-sort="peerNetworks">Networks</button></th>
+              <th scope="col">Nearest listed facility</th>
+            </tr></thead><tbody id="connectivity-table-body"></tbody></table>
+            <div id="connectivity-pagination"></div>
+          </section>
+        </main>
+      </section>
+      <aside id="detail-panel" class="detail-panel" aria-label="Site details" hidden>
+        <button id="close-detail" class="close-detail" type="button" aria-label="Close site details">×</button>
+        <p class="panel-source">EPA site <span id="detail-id"></span></p>
+        <h2 id="detail-name"></h2>
+        <p id="detail-place" class="detail-place"></p>
+        <section id="connectivity-detail" class="connectivity-detail" aria-labelledby="connectivity-detail-title" hidden>
+          <h3 id="connectivity-detail-title">Power &amp; connectivity</h3>
+          <div class="connectivity-metric-cards">
+            <div><strong id="detail-substation-km"></strong><span>Substation distance</span></div>
+            <div><strong id="detail-peering-km"></strong><span>Nearest listed IXP facility</span></div>
+            <div><strong id="detail-peering-networks"></strong><span>Networks at that facility</span></div>
+          </div>
+          <p id="detail-facility-name" class="detail-facility-name"></p>
+          <p id="detail-facility-updated" class="detail-facility-updated"></p>
+          <a id="facility-link" href="#" target="_blank" rel="noopener noreferrer" hidden></a>
+          <p class="connectivity-detail-caution">Distances indicate geographic proximity. Power availability and network performance require confirmation.</p>
+        </section>
+        <details id="legacy-background" class="legacy-background">
+          <summary>Infrastructure inheritance and ecosystem background</summary>
+        <div class="score-pair"><div><strong id="detail-inheritance"></strong><span>Inheritance</span></div><div><strong id="detail-symbiosis"></strong><span>Symbiosis</span></div></div>
+        <p id="detail-summary" class="detail-summary"></p>
+        <section class="evidence-section" aria-labelledby="inheritance-title">
+          <h3 id="inheritance-title">Infrastructure inheritance</h3>
+          <div id="inheritance-rows" class="evidence-rows"></div>
+          <p id="inheritance-reason" class="evidence-reason"></p>
+        </section>
+        <section class="evidence-section" aria-labelledby="symbiosis-title">
+          <h3 id="symbiosis-title">Industrial symbiosis</h3>
+          <div id="symbiosis-rows" class="evidence-rows"></div>
+          <p id="symbiosis-reason" class="evidence-reason"></p>
+        </section>
+        <p id="quality-note" class="quality-note"></p>
+        <section class="evidence-section local-section" aria-labelledby="local-title">
+          <h3 id="local-title">Local ecosystem · 5 km</h3>
+          <p class="local-intro">Verified point coordinates only. Click a facility to inspect its source record.</p>
+          <div id="local-map" role="application" aria-label="Five kilometre facility map around selected site"></div>
+          <p class="local-legend"><span>● Industry</span><span>● WWTP</span><span>◆ Substation</span><span>━ Transmission</span><span>━ Rail</span></p>
+          <div id="local-facility-detail" class="local-facility-detail" aria-live="polite">Select a facility marker for details.</div>
+          <p id="local-layer-status" class="local-layer-status" aria-live="polite"></p>
+          <p id="local-distance-facts" class="local-distance-facts"></p>
+        </section>
+        <p class="detail-caution">Point and score data support screening. Confirm parcel boundaries and infrastructure access before a site decision.</p>
+        </details>
+      </aside>
+    </div>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script type="application/json" id="site-data">__SITE_DATA__</script>
+  <script type="application/json" id="ecosystem-data">__ECOSYSTEM_DATA__</script>
+  <script type="application/json" id="connectivity-data">__CONNECTIVITY_DATA__</script>
+  <script>__POWER_CONNECTIVITY_SCRIPT__</script>
+  <script>__SCRIPT__</script>
+</body>
+</html>

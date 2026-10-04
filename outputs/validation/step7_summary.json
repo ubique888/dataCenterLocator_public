@@ -1,0 +1,286 @@
+{
+  "upstream_rows": 190976,
+  "candidate_rows": 8479,
+  "column_count": 71,
+  "duplicate_site_ids": 0,
+  "data_quality_score_range": {
+    "min": 65.0,
+    "max": 100.0
+  },
+  "missing_fields_count_range": {
+    "min": 0.0,
+    "max": 2.0
+  },
+  "numeric_ranges": {
+    "site_id": {
+      "min": 126.0,
+      "max": 204842.0
+    },
+    "lat": {
+      "min": 17.94971,
+      "max": 64.855359
+    },
+    "lon": {
+      "min": -158.113794,
+      "max": -65.679315
+    },
+    "acreage": {
+      "min": 50.0,
+      "max": 1100000.0
+    },
+    "former_power_plant": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "former_capacity_mw": {
+      "min": 0.8,
+      "max": 2844.2
+    },
+    "retirement_year": {
+      "min": 2002.0,
+      "max": 2026.0
+    },
+    "transmission_kv": {
+      "min": 115.0,
+      "max": 1000.0
+    },
+    "transmission_distance": {
+      "min": 0.0,
+      "max": 2.99891088856
+    },
+    "substation_voltage": {
+      "min": 12.0,
+      "max": 1000.0
+    },
+    "substation_distance": {
+      "min": 0.0,
+      "max": 4.9982691899695295
+    },
+    "rail_distance": {
+      "min": 0.0,
+      "max": 302.2353058542462
+    },
+    "road_distance": {
+      "min": 0.0,
+      "max": 15.059295487543745
+    },
+    "industrial_sites_1km": {
+      "min": 0.0,
+      "max": 29.0
+    },
+    "industrial_sites_5km": {
+      "min": 0.0,
+      "max": 354.0
+    },
+    "industrial_sites_10km": {
+      "min": 0.0,
+      "max": 647.0
+    },
+    "nearest_industrial_sink_km": {
+      "min": 0.0,
+      "max": 160.36316621724905
+    },
+    "nearest_wwtp_km": {
+      "min": 0.0035138448771339544,
+      "max": 81.22914316110939
+    },
+    "wwtp_count_5km": {
+      "min": 0.0,
+      "max": 12.0
+    },
+    "wastewater_flow_5km": {
+      "min": 0.0,
+      "max": 1200.0
+    },
+    "inheritance_score": {
+      "min": 14.865469190444742,
+      "max": 89.32151866565
+    },
+    "symbiosis_score": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "data_quality_score": {
+      "min": 65.0,
+      "max": 100.0
+    },
+    "missing_fields_count": {
+      "min": 0.0,
+      "max": 2.0
+    },
+    "passes_initial_filter": {
+      "min": 1.0,
+      "max": 1.0
+    },
+    "transmission_voltage_review_required": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "substation_voltage_review_required": {
+      "min": 0.0,
+      "max": 1.0
+    },
+    "matched_power_plant_id": {
+      "min": 207.0,
+      "max": 66967.0
+    },
+    "power_site_distance_km": {
+      "min": 0.013737811991977362,
+      "max": 1.9963969141332187
+    },
+    "power_legacy_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "transmission_component": {
+      "min": 33.59178939623,
+      "max": 100.0
+    },
+    "substation_component": {
+      "min": 0.031731517225295804,
+      "max": 100.0
+    },
+    "land_component": {
+      "min": 20.0,
+      "max": 100.0
+    },
+    "transport_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "food_sites_5km": {
+      "min": 0.0,
+      "max": 132.0
+    },
+    "beverage_sites_5km": {
+      "min": 0.0,
+      "max": 26.0
+    },
+    "paper_sites_5km": {
+      "min": 0.0,
+      "max": 34.0
+    },
+    "chemical_sites_5km": {
+      "min": 0.0,
+      "max": 136.0
+    },
+    "metal_sites_5km": {
+      "min": 0.0,
+      "max": 60.0
+    },
+    "wwtp_count_10km": {
+      "min": 0.0,
+      "max": 21.0
+    },
+    "wwtp_flow_known_count_5km": {
+      "min": 0.0,
+      "max": 12.0
+    },
+    "wastewater_flow_10km": {
+      "min": 0.0,
+      "max": 1291.82
+    },
+    "wwtp_flow_known_count_10km": {
+      "min": 0.0,
+      "max": 21.0
+    },
+    "nearest_wwtp_design_flow_mgd": {
+      "min": 0.0,
+      "max": 1200.0
+    },
+    "water_reuse_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "industrial_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "heat_sink_proximity_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "wastewater_proximity_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "wastewater_availability_component": {
+      "min": 0.0,
+      "max": 100.0
+    }
+  },
+  "dual_pool_definition": "At or above each passing-site score's 75th percentile; ranked by inheritance, then symbiosis; no overall score",
+  "dual_pool_count": 849,
+  "dual_pool_thresholds": {
+    "inheritance": 36.949881956521736,
+    "symbiosis": 61.55999205194691
+  },
+  "top20_site_ids": {
+    "inheritance": [
+      155581,
+      154014,
+      38760,
+      136466,
+      136364,
+      136149,
+      136232,
+      38263,
+      40157,
+      41496,
+      152285,
+      50873,
+      39272,
+      174437,
+      41491,
+      1784,
+      1808,
+      201222,
+      137264,
+      37969
+    ],
+    "symbiosis": [
+      41931,
+      139292,
+      154898,
+      40780,
+      42093,
+      152306,
+      43379,
+      200457,
+      38803,
+      56218,
+      55374,
+      153646,
+      56495,
+      33204,
+      39640,
+      40561,
+      41175,
+      55630,
+      154972,
+      154971
+    ],
+    "dual": [
+      155581,
+      154014,
+      136466,
+      40157,
+      41496,
+      39272,
+      174437,
+      41491,
+      1784,
+      1808,
+      38899,
+      138390,
+      41479,
+      38788,
+      50714,
+      1789,
+      41214,
+      41345,
+      38962,
+      162944
+    ]
+  }
+}

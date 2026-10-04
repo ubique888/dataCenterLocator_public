@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "20261003T233324Z",
+  "status": "ready",
+  "started_at": "2026-10-03T23:33:24.298648Z",
+  "completed_at": "2026-10-03T23:33:25.668704Z",
+  "retrieved_at": "2026-10-03T23:33:25.668704Z",
+  "request_base": "https://www.peeringdb.com/api/fac",
+  "raw_row_count": 1377,
+  "pages": [
+    {
+      "file": "pages/fac_page_00000.json",
+      "sha256": "9e344977e95762e0007b14a26a927e8526f96ee42f2ebe3ec903cf3a9d8005da",
+      "count": 250,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 0
+      },
+      "started_at": "2026-10-03T23:33:24.298806Z",
+      "ended_at": "2026-10-03T23:33:24.572739Z"
+    },
+    {
+      "file": "pages/fac_page_00001.json",
+      "sha256": "04dad0b1e9ae2dd774a5fe4b3ae5c58f74766ff0f3343ef6a05f9564784bc3f5",
+      "count": 250,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 250
+      },
+      "started_at": "2026-10-03T23:33:24.574942Z",
+      "ended_at": "2026-10-03T23:33:24.765398Z"
+    },
+    {
+      "file": "pages/fac_page_00002.json",
+      "sha256": "dd9406260f5295acb3a2c773174d67bbd1922b2a10d4bff84acfe6eeccc9280e",
+      "count": 250,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 500
+      },
+      "started_at": "2026-10-03T23:33:24.768495Z",
+      "ended_at": "2026-10-03T23:33:24.990241Z"
+    },
+    {
+      "file": "pages/fac_page_00003.json",
+      "sha256": "b1f7258d050191101c0365fb4459f43f6304d0ceb3332bc6b34d65a5d629f1da",
+      "count": 250,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 750
+      },
+      "started_at": "2026-10-03T23:33:24.993208Z",
+      "ended_at": "2026-10-03T23:33:25.168130Z"
+    },
+    {
+      "file": "pages/fac_page_00004.json",
+      "sha256": "52e58f3598d28a9a2533c0faf29958b72f055609293bc214a76806f869de777a",
+      "count": 250,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 1000
+      },
+      "started_at": "2026-10-03T23:33:25.171441Z",
+      "ended_at": "2026-10-03T23:33:25.357792Z"
+    },
+    {
+      "file": "pages/fac_page_00005.json",
+      "sha256": "ee290232ca989ab2aa10d7ca0200802c9fda4674d7af06979a8f9ce59f2f2917",
+      "count": 127,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 1250
+      },
+      "started_at": "2026-10-03T23:33:25.360868Z",
+      "ended_at": "2026-10-03T23:33:25.523576Z"
+    },
+    {
+      "file": "pages/fac_page_00006.json",
+      "sha256": "8113ad651e4fbf1abc5975a1eb8d440fb56066d6e0bcfd214751896cf194d674",
+      "count": 0,
+      "http_status": 200,
+      "parameters": {
+        "country": "US",
+        "status": "ok",
+        "depth": "0",
+        "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+        "limit": 250,
+        "skip": 1377
+      },
+      "started_at": "2026-10-03T23:33:25.526208Z",
+      "ended_at": "2026-10-03T23:33:25.666123Z"
+    }
+  ],
+  "normalization": {
+    "raw_count": 1377,
+    "eligible_count": 478,
+    "rejected_count": 899,
+    "duplicate_rows_removed": 0,
+    "network_count_missing": 0,
+    "rejected_by_reason": {
+      "invalid_coordinates": 23,
+      "no_ixp": 876
+    },
+    "snapshot_id": "20261003T233324Z",
+    "retrieved_at": "2026-10-03T23:33:25.668704Z"
+  }
+}

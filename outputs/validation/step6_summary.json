@@ -1,0 +1,16 @@
+{
+  "sites_enriched": 190976,
+  "passing_sites_plotted": 8479,
+  "high_inheritance_threshold": 60.0,
+  "high_symbiosis_threshold": 75.0,
+  "upper_right_count": 2,
+  "symbiosis_score_range": {
+    "min": 0.0,
+    "max": 100.0
+  },
+  "upper_right_top20_site_ids": [
+    40157,
+    39272
+  ],
+  "overall_score_created": false
+}

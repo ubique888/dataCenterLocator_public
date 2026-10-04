@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Urban inference can belong near demand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.css">
+  <link rel="stylesheet" href="./theme.css">
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+      <section id="opening" class="hero" data-transition="fade">
+        <div class="hero-art" aria-hidden="true"></div>
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="live-dot"></span> FIELD NOTE 01 <span class="eyebrow-rule"></span> URBAN INFERENCE</div>
+          <h1>Urban inference<br>can belong near demand</h1>
+          <p>Cheap land pulls facilities outward. Interactive AI pulls compute toward users. Existing urban infrastructure may make that trade worthwhile.</p>
+          <div class="hero-illustrative">ILLUSTRATIVE CONCEPT IMAGE <span>·</span> NOT A PROPOSED SITE</div>
+          <div class="hero-foot"><span>INFRASTRUCTURE INHERITANCE + SYMBIOSIS</span><span>01 / 07</span></div>
+        </div>
+        <aside class="notes">
+          The obvious answer for a data center is cheap land far from the city. Our project asks whether that changes for interactive AI inference. A request has to reach the model and return to the user, so the right location can depend on the network and the people it serves. We are testing an urban industrial site as a compact inference node, with slower work sent to a lower-cost regional facility. This is a siting hypothesis, not a measured latency result.
+          <p>Source: <code>../docs/six_page_story.md</code>, Page 1.</p>
+        </aside>
+      </section>
+
+      <section id="density" class="deck-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">THE URBAN TRADE</div><div class="deck-index">02 <span>/</span> 07</div><h2>Density raises costs and creates synergies</h2></header>
+        <div class="tradeoff-grid">
+          <article class="trade-card cost-card">
+            <div class="card-label amber-text"><span class="label-mark"></span> COSTS TO PROVE</div>
+            <div class="trade-row"><span class="row-num">01</span><span>Land</span></div>
+            <div class="trade-row"><span class="row-num">02</span><span>Grid competition</span></div>
+            <div class="trade-row"><span class="row-num">03</span><span>Permits and community</span></div>
+            <div class="card-foot">A dense market can make each site harder to deliver.</div>
+          </article>
+          <article class="trade-card synergy-card">
+            <div class="card-label cyan-text"><span class="label-mark"></span> SYNERGIES TO TEST</div>
+            <div class="trade-row"><span class="row-num">01</span><span>Users and networks</span></div>
+            <div class="trade-row"><span class="row-num">02</span><span>Workforce and heat customers</span></div>
+            <div class="trade-row"><span class="row-num">03</span><span>Reused industrial sites</span></div>
+            <div class="card-foot">Proximity can create options for shared systems.</div>
+          </article>
+        </div>
+        <div class="bottom-callout"><span class="callout-line"></span><strong>Both sides need site-level proof.</strong><span class="callout-note">Density is a reason to investigate, not an automatic advantage.</span></div>
+        <aside class="notes">
+          Density cuts both ways. Urban land is contested, grid connections can be difficult, and permits and community impacts matter. The same area may also contain users, network facilities, skilled workers, industrial land and customers for waste heat. Our locator measures some physical proximity, especially grid, selected industry and treatment plants. It does not price land or prove a workforce, a heat contract or a fiber route. We therefore treat density as a reason to investigate specific sites, not as an automatic sustainability advantage.
+          <p>Source: <code>../docs/six_page_story.md</code>, Page 2; <code>../README_DATA.md</code>.</p>
+        </aside>
+      </section>
+
+      <section id="systems" class="deck-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">A SITE IS A SYSTEM</div><div class="deck-index">03 <span>/</span> 07</div><h2>One site can connect six systems</h2></header>
+        <div class="systems-stage">
+          <svg class="systems-lines" viewBox="0 0 1120 440" aria-hidden="true">
+            <defs><linearGradient id="route" x1="0" x2="1"><stop stop-color="#58D8E4" stop-opacity=".25"/><stop offset=".55" stop-color="#58D8E4"/><stop offset="1" stop-color="#F0AA6B" stop-opacity=".6"/></linearGradient></defs>
+            <path d="M560 219 L560 56 M560 219 L198 126 M560 219 L920 126 M560 219 L200 334 M560 219 L560 386 M560 219 L920 334"/>
+            <path class="route-pulse" d="M560 219 L560 56 M560 219 L198 126 M560 219 L920 126 M560 219 L200 334 M560 219 L560 386 M560 219 L920 334"/>
+            <circle cx="560" cy="219" r="142" class="boundary-ring"/>
+          </svg>
+          <div class="system-node node-grid"><span class="node-index">01</span><b>GRID ASSETS</b><small>interconnection</small></div>
+          <div class="system-node node-carrier"><span class="node-index">02</span><b>CARRIER ROUTES</b><small>metro reach</small></div>
+          <div class="system-node node-users"><span class="node-index">03</span><b>INFERENCE USERS</b><small>latency demand</small></div>
+          <div class="system-node node-heat"><span class="node-index">04</span><b>HEAT CUSTOMERS</b><small>possible offtake</small></div>
+          <div class="system-node node-water"><span class="node-index">05</span><b>TREATMENT WATER</b><small>cooling option</small></div>
+          <div class="system-node node-land"><span class="node-index">06</span><b>REUSED LAND</b><small>industrial footprint</small></div>
+          <div class="site-core"><span class="core-cross">+</span><strong>URBAN<br>INFERENCE<br>SITE</strong><i>SCREENING POINT</i></div>
+        </div>
+        <div class="proof-boundary"><span class="boundary-label">PROOF BOUNDARY</span><span>Proximity starts the case.</span><b>Engineering and contracts complete it.</b></div>
+        <aside class="notes">
+          This diagram is the project thesis. A prospective inference site sits inside six surrounding systems. Grid assets may support an interconnection. Carrier routes and nearby users make a metro service plausible. Industrial neighbors might use low-grade heat. A treatment plant might support a reclaimed-water cooling design. Reusing an industrial footprint may reduce some new land or material needs. The current project maps candidate points and nearby source records. It does not prove any connection, available megawatts, usable water, heat demand or parcel rights. Each link is a due-diligence question.
+          <p>Source: <code>../README_DATA.md</code>, Steps 1–12; <code>../outputs/validation/validation_report.md</code>.</p>
+        </aside>
+      </section>
+
+      <section id="funnel" class="deck-slide funnel-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">FROM NATIONAL RECORDS TO LOCAL CONTEXT</div><div class="deck-index">04 <span>/</span> 07</div><h2>The locator turns national records into site evidence</h2></header>
+        <div class="funnel-layout">
+          <div class="funnel-graphic">
+            <div class="funnel-count source-count"><span class="count-value">190,976</span><span class="count-label">EPA RE-Powering records</span><span class="count-code">NATIONAL SOURCE COHORT</span></div>
+            <svg class="funnel-shape" viewBox="0 0 210 390" aria-hidden="true">
+              <path class="funnel-band band-a" d="M12 16 H198 L177 82 H33 Z"/>
+              <path class="funnel-band band-b" d="M33 94 H177 L157 160 H53 Z"/>
+              <path class="funnel-band band-c" d="M53 172 H157 L137 238 H73 Z"/>
+              <path class="funnel-band band-d" d="M73 250 H137 L119 328 H91 Z"/>
+              <path class="funnel-spine" d="M105 4 V373"/>
+            </svg>
+            <div class="funnel-filter fragment fade-up" data-fragment-index="0"><span>SCREENING GATE</span><b>≥50 acres · ≥115 kV</b><small>transmission ≤3 mi · substation ≤5 mi</small></div>
+            <div class="funnel-count screened-count fragment fade-up" data-fragment-index="1"><span class="count-value">8,479</span><span class="count-label">screened candidates</span><span class="count-code">GEOGRAPHIC SHORTLIST</span></div>
+          </div>
+          <div class="funnel-output fragment fade-up" data-fragment-index="2">
+            <div class="output-title"><span class="eyebrow">EACH CANDIDATE GETS TWO SEPARATE SCORES</span><span class="output-rule"></span></div>
+            <div class="score-axis inherit-axis"><span class="axis-symbol">↗</span><div><b>INFRASTRUCTURE<br>INHERITANCE</b><small>Former power · transmission · substation · land · transport</small></div></div>
+            <div class="score-axis symbiosis-axis"><span class="axis-symbol">⌁</span><div><b>INDUSTRIAL<br>SYMBIOSIS</b><small>Selected manufacturing · treatment plant opportunity</small></div></div>
+            <div class="output-footer"><span class="cyan-tick"></span>LOCAL 5 KM FACILITY CONTEXT</div>
+          </div>
+        </div>
+        <div class="funnel-caveat"><span>COHORT LIMIT</span> The inherited ≥50-acre threshold may miss compact urban parcels.<span class="sep">/</span> Connectivity is a separate exploratory view.</div>
+        <aside class="notes">
+          Here is what we have actually built. We start with 190,976 EPA RE-Powering records. Reported acreage and grid-distance thresholds yield 8,479 screened candidates. Each receives two separate opportunity scores. Infrastructure inheritance uses former power, transmission, substation, land and transport evidence. Industrial symbiosis uses selected manufacturing proximity and treatment-plant opportunity. The explorer exposes source values and a five-kilometer local ecosystem. Connectivity indicators sit in a separate preview, not in either score. The original 50-acre threshold also means compact urban parcels are missing from this candidate pool.
+          <p>Source: <code>../outputs/validation/step1_summary.json</code>; <code>../outputs/validation/step7_summary.json</code>; <code>../README_DATA.md</code>.</p>
+        </aside>
+      </section>
+
+      <section id="candidate-chart" class="deck-slide chart-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">TWO INDEPENDENT OPPORTUNITY AXES</div><div class="deck-index">05 <span>/</span> 07</div><h2>Two axes make urban tradeoffs visible</h2></header>
+        <div class="chart-layout">
+          <div class="plot-wrap">
+            <svg class="candidate-plot" viewBox="0 0 720 500" role="img" aria-label="Candidate scores by infrastructure inheritance and industrial symbiosis">
+              <text class="y-label" x="20" y="220" transform="rotate(-90 20 220)">INDUSTRIAL SYMBIOSIS</text>
+              <text class="x-label" x="350" y="482">INFRASTRUCTURE INHERITANCE</text>
+              <rect class="high-high" x="382" y="35" width="200" height="286.5"/>
+              <path class="plot-grid" d="M82 35H582 M82 130.5H582 M82 226H582 M82 321.5H582 M82 417H582 M82 35V417 M182 35V417 M282 35V417 M382 35V417 M482 35V417 M582 35V417"/>
+              <path class="threshold" d="M382 35V417 M82 130.5H582"/>
+              <path class="plot-axes" d="M82 35V417H582"/>
+              <text class="tick" x="382" y="441" text-anchor="middle">60</text><text class="tick" x="68" y="135" text-anchor="end">75</text>
+              <text class="quadrant-label" x="570" y="56" text-anchor="end">SCREENING LEADS</text>
+              <g class="plot-point astoria-point"><circle cx="474.3" cy="60.9" r="10"/><circle class="point-halo" cx="474.3" cy="60.9" r="19"/><text x="494" y="66">Astoria</text></g>
+              <g class="plot-point salem-point"><circle cx="387.9" cy="111.4" r="8"/><text x="403" y="117">Salem</text></g>
+              <g class="plot-point indian-point"><circle cx="528.6" cy="154.6" r="8"/><text x="520" y="181" text-anchor="end">Indian Point</text></g>
+              <g class="plot-point davis-point"><circle cx="233.4" cy="35" r="8"/><text x="247" y="57">Davis Street</text></g>
+            </svg>
+          </div>
+          <div class="chart-side">
+            <div class="threshold-note"><span class="threshold-swatch"></span><div><b>Current screen</b><small>Inheritance ≥60<br>Symbiosis ≥75</small></div><strong>2<small>clear both</small></strong></div>
+            <div class="score-record astoria-record"><span class="record-dot"></span><div><b>ASTORIA</b><small>78.46 <i>/</i> 93.21</small></div><em>01</em></div>
+            <div class="score-record salem-record"><span class="record-dot"></span><div><b>SALEM</b><small>61.19 <i>/</i> 79.99</small></div><em>02</em></div>
+            <div class="trade-note"><b>Other shapes show tradeoffs.</b><span>Indian Point: 89.32 / 68.69<br>Davis Street: 30.27 / 100</span></div>
+            <div class="chart-caveat">Scores narrow the field. They do not establish site feasibility. Connectivity stays separate.</div>
+          </div>
+        </div>
+        <aside class="notes">
+          The separate axes make tradeoffs visible. Astoria and the Salem-area New England Power Company record both clear the current high-high thresholds. Indian Point has stronger inheritance but less surrounding symbiosis. Davis Street shows the opposite pattern and has an active facility-use question. Scores narrow the field. They do not settle parcel availability or data-center feasibility. The separate connectivity view tells us which facilities to investigate further, but its distance to a listed IXP-hosting building cannot establish user latency or a fiber contract.
+          <p>Source: <code>../outputs/validation/step6_upper_right.csv</code>; <code>../outputs/validation/step11_selected_sites.csv</code>; <code>../outputs/validation/power_connectivity_review.md</code>.</p>
+        </aside>
+      </section>
+
+      <section id="site-explorer" class="demo-slide" data-transition="fade">
+        <header class="demo-head"><div><div class="eyebrow">INTERACTIVE DEMO 01 <span class="demo-divider">/</span> SITE EVIDENCE</div><h2>Open the record. Inspect the neighborhood.</h2></div><button class="return-button" type="button" data-return-to-story><span>←</span> Return to comparison</button></header>
+        <iframe class="demo-frame" id="inheritance-demo" title="Interactive infrastructure inheritance and symbiosis site explorer" src="../../outputs/infrastructure_inheritance_symbiosis.html?site=40157" loading="eager" allow="fullscreen"></iframe>
+        <footer class="demo-foot"><span>CLICK A CANDIDATE OR FILTER TO INSPECT ITS SOURCE EVIDENCE</span><span class="demo-caveat">Proximity is a screen; parcel, utility and reuse rights remain unverified.</span><span class="deck-index">06 <i>/</i> 09</span></footer>
+        <aside class="notes">
+          The explorer shows how a screened record becomes local evidence. Click a site, review its two separate scores and inspect nearby facility records. Filters change which records are visible. Distances identify diligence questions; they do not prove service, a heat customer, available utility capacity or reuse rights. The map depends on external map tiles and data services. If those do not load, keep the recorded source counts and comparison plot in view.
+          <p>Playback: click the filter controls or candidate points. Press Escape or choose “Return to comparison” to leave the embedded page.</p>
+        </aside>
+      </section>
+
+      <section id="connectivity-demo" class="demo-slide" data-transition="fade">
+        <header class="demo-head"><div><div class="eyebrow">INTERACTIVE DEMO 02 <span class="demo-divider">/</span> POWER + CONNECTIVITY</div><h2>Keep utility and network clues exploratory.</h2></div><button class="return-button" type="button" data-return-to-story><span>←</span> Return to comparison</button></header>
+        <iframe class="demo-frame" id="connectivity-preview" title="Interactive power and connectivity indicators preview" src="../../outputs/power_connectivity_preview.html?site=40157" loading="eager" allow="fullscreen"></iframe>
+        <footer class="demo-foot"><span>SWITCH BETWEEN MAP, COMPARISON AND TABLE</span><span class="demo-caveat">Retired MW does not prove deliverable power; IXP distance does not prove latency.</span><span class="deck-index">07 <i>/</i> 09</span></footer>
+        <aside class="notes">
+          This is a separate exploratory view, not a component of either opportunity score. The connectivity records include nearest-substation and nearest listed IXP-facility distances and the network count at that facility. The PeeringDB snapshot was retrieved on 2026-10-03. These indicators do not prove available power, a carrier route, a service contract or end-user latency. Retired generator nameplate is historical capacity, not deliverable grid power.
+          <p>Playback: switch from the map to comparison or table, then return to the slide deck.</p>
+        </aside>
+      </section>
+
+      <section id="astoria" class="deck-slide astoria-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">FROM SCREENING POINT TO DILIGENCE REGION</div><div class="deck-index">06 <span>/</span> 07</div><h2>Astoria is the first due-diligence lead</h2></header>
+        <div class="handoff-line"><span class="handoff-start">TWO-AXIS SCREEN</span><span class="handoff-track"><i></i></span><span class="handoff-end">LOCAL EVIDENCE</span></div>
+        <div class="astoria-top">
+          <div class="astoria-name"><div class="site-pin"><span></span></div><div><span class="micro-label">QUEENS, NEW YORK <i>·</i> EPA SITE 40157</span><h3>Astoria</h3></div></div>
+          <div class="astoria-scores">
+            <div><b>78.46</b><span>INFRASTRUCTURE INHERITANCE</span></div>
+            <i class="score-separator">/</i>
+            <div><b>93.21</b><span>INDUSTRIAL SYMBIOSIS</span></div>
+          </div>
+          <div class="astoria-count"><b>37</b><span>DISTINCT SELECTED-MANUFACTURING<br>FRS IDs WITHIN 5 KM</span><small>34 coordinate groups</small></div>
+        </div>
+        <div class="evidence-row">
+          <div class="category-heading"><span class="micro-label">POTENTIAL HEAT-REUSE LEADS</span><b>Selected manufacturing records</b></div>
+          <div class="category-bar" aria-label="Food 3, beverage 4, paper 6, chemicals 15, primary metals 9">
+            <i class="food" style="--share:3" title="Food 3"></i><i class="beverage" style="--share:4" title="Beverage 4"></i><i class="paper" style="--share:6" title="Paper 6"></i><i class="chemicals" style="--share:15" title="Chemicals 15"></i><i class="metals" style="--share:9" title="Primary metals 9"></i>
+          </div>
+          <div class="category-legend"><span><i class="food-dot"></i>Food <b>3</b></span><span><i class="beverage-dot"></i>Beverage <b>4</b></span><span><i class="paper-dot"></i>Paper <b>6</b></span><span><i class="chemicals-dot"></i>Chemicals <b>15</b></span><span><i class="metals-dot"></i>Primary metals <b>9</b></span></div>
+        </div>
+        <div class="water-record"><span class="water-icon">≈</span><b>3 wastewater records</b><span>within 5 km</span><small>Records and design-flow proxies do not establish reusable water.</small></div>
+        <div class="astoria-caution"><span>OPPORTUNITY SIGNAL ONLY</span><b>Current operations, heat demand and temperature, pipe feasibility, and partner interest are unverified.</b></div>
+        <aside class="notes">
+          Our first diligence lead is Astoria in Queens, EPA candidate 40157. It scores 78.46 for infrastructure inheritance and 93.21 for industrial symbiosis. An independent recount found 37 distinct FRS facility IDs within five kilometers, across 34 coordinate groups. The selected manufacturing categories are food 3, beverage 4, paper 6, chemicals 15, and primary metals 9. These records suggest heat-reuse opportunities to investigate; they are not confirmed heat customers. Current operations, heat quantity and temperature, pipe feasibility, and willingness to partner have not been checked. Nor have parcel rights, utility capacity, or network performance. Astoria is a diligence lead, not a construction-ready site.
+          <p>Source: <code>../outputs/validation/step6_upper_right.csv</code>; <code>../data/processed/site_features.parquet</code>; <code>../outputs/validation/validation_report.md</code>; user-provided independent recount of FRS IDs, coordinates and categories.</p>
+        </aside>
+      </section>
+
+      <section id="roadmap" class="deck-slide roadmap-slide" data-transition="fade">
+        <header class="slide-head"><div class="eyebrow">A CONDITIONAL LONG-HORIZON OPTION</div><div class="deck-index">07 <span>/</span> 07</div><h2>Metro proximity can support a 30-year strategy</h2></header>
+        <div class="premise-list">
+          <article><div class="premise-mark cyan-mark">01</div><div class="premise-title cyan-text">DEMAND ANCHOR</div><p>Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.</p></article>
+          <article><div class="premise-mark amber-mark">02</div><div class="premise-title amber-text">LAND OPTION</div><p>Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.</p></article>
+          <article><div class="premise-mark green-mark">03</div><div class="premise-title green-text">DURABLE LINKS</div><p>Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.</p></article>
+        </div>
+        <div class="roadmap-label"><span>RECHECK EACH PHASE</span><b>Planning premises supplied for this concept — not measured forecasts from the locator.</b></div>
+        <div class="timeline"><div class="timeline-track"></div><div class="milestone m-2030"><span class="mile-dot"></span><b>2030</b><small>VERIFY</small></div><div class="milestone m-2040"><span class="mile-dot"></span><b>2040</b><small>PHASE</small></div><div class="milestone m-2050"><span class="mile-dot"></span><b>2050</b><small>REASSESS</small></div></div>
+        <div class="conditional-note"><span>CONDITIONAL VISION</span><span>Confirm parcel, utility, carrier and heat-use diligence before each phase.</span></div>
+        <aside class="notes">
+          The long-term case rests on more than today's score. Residents and firms generally do not relocate across regions all at once, so a metro can remain a useful catchment for latency-sensitive services. That is a planning premise, not a thirty-year demand forecast; we would recheck migration and workloads at every phase. Suitable suburban parcels near fiber and grid are also more limited than remote acreage, making site options valuable. Utility, carrier and heat links may last longer than one GPU generation. We can refresh hardware and shift eligible work to regional facilities as needs change. First, though, we still need parcel, utility, carrier and heat-use diligence. The timeline remains conditional.
+          <p>Source: <code>../docs/six_page_story.md</code>, Pages 4–6.</p>
+        </aside>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/dist/reveal.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/reveal.js@5.2.1/plugin/notes/notes.js"></script>
+  <script src="./deck.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "geomine_boundary_count",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "exit_code": 0,
+    "seconds": 0.36,
+    "bytes": 15,
+    "stderr": "",
+    "error": null,
+    "count": 78389,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_boundary_sample",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=objectid&resultRecordCount=1000&f=json",
+    "exit_code": 0,
+    "seconds": 1.2,
+    "bytes": 746937,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 1000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "geomine_boundary_geometry",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0/query?where=1%3D1&outFields=objectid%2Cmsha_id%2Cpermit_id%2Cnational_id%2Cmine_name&returnGeometry=true&orderByFields=objectid&resultRecordCount=3&outSR=4326&f=geojson",
+    "exit_code": 0,
+    "seconds": 0.68,
+    "bytes": 367464,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 3,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "geomine_bond_count",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/ReclamationBondStatus/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "exit_code": 0,
+    "seconds": 0.51,
+    "bytes": 15,
+    "stderr": "",
+    "error": null,
+    "count": 38253,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_bond_sample",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/ReclamationBondStatus/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=objectid&resultRecordCount=100&f=json",
+    "exit_code": 0,
+    "seconds": 0.48,
+    "bytes": 59810,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 100,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_layer_meta",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/0?f=pjson",
+    "exit_code": 0,
+    "seconds": 0.3,
+    "bytes": 4947,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "eamlis_table_meta",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1?f=pjson",
+    "exit_code": 0,
+    "seconds": 0.1,
+    "bytes": 3677,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "eamlis_problem_count",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "exit_code": 0,
+    "seconds": 2.06,
+    "bytes": 15,
+    "stderr": "",
+    "error": null,
+    "count": 61582,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "eamlis_problem_sample",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=true&resultRecordCount=100&outSR=4326&f=json",
+    "exit_code": 0,
+    "seconds": 0.64,
+    "bytes": 34814,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 100,
+    "exceededTransferLimit": true
+  }
+]

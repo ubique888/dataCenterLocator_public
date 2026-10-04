@@ -1,0 +1,42 @@
+[
+  {
+    "name": "msha_portal",
+    "url": "https://www.msha.gov/mine-data-retrieval-system",
+    "final_url": "https://www.msha.gov/data-and-reports/mine-data-retrieval-system?mineId=4602292",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 91983,
+    "sha256": "0520d1b31a77716d7f83a2dc5479a51119e77c5cec8cf8a2897282de38227a64",
+    "saved": "msha_portal.txt"
+  },
+  {
+    "name": "msha_definition",
+    "url": "https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines_Definition_File.txt",
+    "final_url": "https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines_Definition_File.txt",
+    "status": 200,
+    "content_type": "text/plain",
+    "bytes": 10285,
+    "sha256": "efd2bc2c493207a464be7c4e4795ffd08a221588b76b716ee334a75dfc14f1f9",
+    "saved": "msha_definition.txt"
+  },
+  {
+    "name": "osmre_geomine",
+    "url": "https://geoservices.osmre.gov/arcgis/rest/services/GeoMine?f=pjson",
+    "error": "HTTPSConnectionPool(host='geoservices.osmre.gov', port=443): Max retries exceeded with url: /arcgis/rest/services/GeoMine?f=pjson (Caused by NameResolutionError(\"HTTPSConnection(host='geoservices.osmre.gov', port=443): Failed to resolve 'geoservices.osmre.gov' ([Errno 8] nodename nor servname provided, or not known)\"))"
+  },
+  {
+    "name": "eamlis_service",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer?f=pjson",
+    "error": "HTTPSConnectionPool(host='eamlis.osmre.gov', port=443): Max retries exceeded with url: /arcgis/rest/services/ProblemsStatus/MapServer?f=pjson (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  },
+  {
+    "name": "sierraclub_map",
+    "url": "https://www.sierraclub.org/coal/coal-plant-map",
+    "final_url": "https://www.sierraclub.org/coal/coal-plant-map",
+    "status": 403,
+    "content_type": "text/html",
+    "bytes": 883,
+    "sha256": "73242d42ce51922ee880a701069580b568a1b4bd921188627f0b3158056009c4",
+    "saved": "sierraclub_map.txt"
+  }
+]

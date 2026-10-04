@@ -1,0 +1,46 @@
+{
+ "currentVersion": 11.5,
+ "folders": [],
+ "services": [
+  {
+   "name": "GeoMine/AllCoalmineOperations",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/BackgroundFeatures",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/CoalPrepPlants",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/CoalRefuse",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/EnvironmentalResourceMonitoringLocations",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/GeomineDataExtract",
+   "type": "GPServer"
+  },
+  {
+   "name": "GeoMine/OSMRE_AML_Awards",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/OSMRE_Offices",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/PostMiningLandUse",
+   "type": "MapServer"
+  },
+  {
+   "name": "GeoMine/ReclamationBondStatus",
+   "type": "MapServer"
+  }
+ ]
+}

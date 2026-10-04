@@ -1,0 +1,10 @@
+{
+  "candidate_sites": 8479,
+  "sites_with_local_facilities": 6502,
+  "industrial_matches_within_5km": 77749,
+  "wastewater_matches_within_5km": 6514,
+  "industrial_count_mismatches": [],
+  "wastewater_count_mismatches": [],
+  "distance_method": "WGS84 pyproj.Geod.inv, <= 5 km",
+  "coordinate_policy": "FRS/CWNS source points are embedded; HIFLD/FRA source geometry is queried live; EPA nearest-asset distances remain text-only"
+}

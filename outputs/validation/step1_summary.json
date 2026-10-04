@@ -1,0 +1,145 @@
+{
+  "source_url": "https://www.epa.gov/system/files/documents/2023-05/re-powering-screening-dataset-2022%20Updated.xlsx",
+  "source_file": "data/raw/repowering/re-powering-screening-dataset-2022_Updated.xlsx",
+  "source_sha256": "bf0ecd179a4b69640bc31ae855c1aa700546cb198189b355ed7d4ebc8770b086",
+  "source_sheet": "RE-Powering Sites",
+  "source_version": "2022 (updated 2023), per workbook Attributes sheet",
+  "download_date": "2026-10-03",
+  "source_columns_file": "outputs/validation/source_columns.json",
+  "map_basemap": {
+    "service": "USGS The National Map USGSTopo",
+    "url_template": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSTopo/MapServer/tile/{z}/{y}/{x}",
+    "attribution": "Map services and data available from U.S. Geological Survey, National Geospatial Program."
+  },
+  "column_mapping": {
+    "Cross-Reference Number": "site_id",
+    "Site ID": "source_site_id",
+    "Site Name": "site_name",
+    "Latitude": "latitude",
+    "Longitude": "longitude",
+    "Acreage (Acres)": "acreage",
+    "Distance to Nearest Transmission Line (miles)": "distance_to_transmission",
+    "Nearest Transmission Line kV (kilovolts)": "transmission_voltage",
+    "Nearest Transmission Line Status": "transmission_status",
+    "Distance to Nearest Substation (miles)": "distance_to_substation",
+    "Nearest Substation Voltage (Volts)": "substation_voltage",
+    "Distance to Nearest Road (miles)": "distance_to_road",
+    "Distance to Nearest Rail (miles)": "distance_to_rail",
+    "Program": "source_program",
+    "Known Landfill": "source_known_landfill",
+    "Known Abandoned Mine Land": "source_known_abandoned_mine_land",
+    "State": "state",
+    "County": "county"
+  },
+  "filter": {
+    "acreage_acres_min": 50,
+    "transmission_distance_miles_max": 3,
+    "transmission_voltage_kv_min": 115,
+    "substation_distance_miles_max": 5
+  },
+  "statistics": {
+    "total_epa_sites": 190976,
+    "sites_with_valid_coordinates": 190976,
+    "sites_at_least_50_acres": 14979,
+    "sites_near_at_least_115kv_transmission": 111250,
+    "sites_passing_all_filters": 8479,
+    "source_site_id_duplicates": 27423,
+    "site_id_duplicates": 0,
+    "transmission_voltage_over_765kv": 48,
+    "passing_sites_with_transmission_voltage_over_765kv": 4,
+    "substation_voltage_over_765_reported_units": 2
+  },
+  "random_sample_seed": 42,
+  "random_candidate_sample": [
+    {
+      "site_id": 174739,
+      "site_name": "MAYWOOD CHEMICAL CO.",
+      "state": "NJ",
+      "acreage": 116.90815119,
+      "transmission_voltage": 230.0,
+      "distance_to_transmission": 0.007747831631071874,
+      "distance_to_substation": 0.023719986702081468
+    },
+    {
+      "site_id": 39630,
+      "site_name": "ALCOLAC INC",
+      "state": "MO",
+      "acreage": 227.78,
+      "transmission_voltage": 161.0,
+      "distance_to_transmission": 0.803942115662058,
+      "distance_to_substation": 0.803942115662058
+    },
+    {
+      "site_id": 147141,
+      "site_name": null,
+      "state": "VA",
+      "acreage": 599.015936827,
+      "transmission_voltage": 138.0,
+      "distance_to_transmission": 0.0673651087214,
+      "distance_to_substation": 0.46108174473880703
+    },
+    {
+      "site_id": 51695,
+      "site_name": "WASTE MANAGEMENT HUNT ROAD LANDFILL",
+      "state": "MA",
+      "acreage": 64.91,
+      "transmission_voltage": 345.0,
+      "distance_to_transmission": 0.43325303012273403,
+      "distance_to_substation": 0.4988768797794912
+    },
+    {
+      "site_id": 145325,
+      "site_name": "PECULIAR QY #528",
+      "state": "MO",
+      "acreage": 346.0,
+      "transmission_voltage": 161.0,
+      "distance_to_transmission": 0.381153081678,
+      "distance_to_substation": 0.5830351269291928
+    },
+    {
+      "site_id": 39210,
+      "site_name": "NALCO CO - GARYVILLE FACILITY",
+      "state": "LA",
+      "acreage": 225.0,
+      "transmission_voltage": 230.0,
+      "distance_to_transmission": 0.7115106668840575,
+      "distance_to_substation": 2.0038552443495945
+    },
+    {
+      "site_id": 43959,
+      "site_name": "BELLFORT BOULEVARD LANDFILL",
+      "state": "TX",
+      "acreage": 264.0,
+      "transmission_voltage": 138.0,
+      "distance_to_transmission": 0.0,
+      "distance_to_substation": 0.357963979712777
+    },
+    {
+      "site_id": 33208,
+      "site_name": "ROUTE 73 SOUTH REDEVELOPMENT AREA PROJECT/PALYMYRA BOROUGH BDA",
+      "state": "NJ",
+      "acreage": 186.0,
+      "transmission_voltage": 230.0,
+      "distance_to_transmission": 1.0728800727365728,
+      "distance_to_substation": 1.7243284831580141
+    },
+    {
+      "site_id": 26291,
+      "site_name": "DELPHI EAST",
+      "state": "MI",
+      "acreage": 77.76,
+      "transmission_voltage": 138.0,
+      "distance_to_transmission": 0.06437006533130757,
+      "distance_to_substation": 0.13169607593620278
+    },
+    {
+      "site_id": 156822,
+      "site_name": "CAYLOR RUN",
+      "state": "PA",
+      "acreage": 202.125998599,
+      "transmission_voltage": 115.0,
+      "distance_to_transmission": 0.0421305805809,
+      "distance_to_substation": 0.04213058058087726
+    }
+  ]
+}

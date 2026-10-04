@@ -1,0 +1,941 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/54jwz6",
+    "id": "54jwz6",
+    "slide": 7,
+    "layoutId": "02a21e33-a39d-4c1a-9641-fffc2bd8d067",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "7a6f4f05-f823-4de8-a3f2-c097046ce0cd",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#071722",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "Arial"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "02a21e33-a39d-4c1a-9641-fffc2bd8d067",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "7a6f4f05-f823-4de8-a3f2-c097046ce0cd",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "7a6f4f05-f823-4de8-a3f2-c097046ce0cd",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3u5g7ax",
+      "id": "1",
+      "name": "s7-title",
+      "bbox": [
+        72,
+        42,
+        1100,
+        100
+      ],
+      "geometry": "rect",
+      "text": "Metro proximity can support a 30-year strategy",
+      "textPreview": "Metro proximity can support a 30-year strategy",
+      "resolvedFontSize": 45,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 45,
+        "typeface": "Arial",
+        "color": "#EEF6F4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Metro proximity can support a 30-year strategy"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Metro proximity can support a 30-year strategy",
+          "resolvedTextStyle": {
+            "fontSize": 45,
+            "typeface": "Arial",
+            "color": "#EEF6F4",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Metro proximity can support a 30-year strategy",
+              "fontSize": 45,
+              "typeface": "Arial",
+              "color": "#EEF6F4",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2l4n29c",
+      "id": "2",
+      "name": "s7-number",
+      "bbox": [
+        1168,
+        48,
+        58,
+        36
+      ],
+      "geometry": "rect",
+      "text": "07/07",
+      "textPreview": "07/07",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "Arial",
+        "color": "#9CB2BC",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07/07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07/07",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "typeface": "Arial",
+            "color": "#9CB2BC",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07/07",
+              "fontSize": 18,
+              "typeface": "Arial",
+              "color": "#9CB2BC",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/m1c3exsr",
+      "id": "3",
+      "bbox": [
+        72,
+        151,
+        1136,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#294451",
+      "lineWidth": 2
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/103mlsrm",
+      "id": "4",
+      "bbox": [
+        82,
+        190,
+        245,
+        64
+      ],
+      "geometry": "rect",
+      "text": "DEMAND ANCHOR",
+      "textPreview": "DEMAND ANCHOR",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#58D8E4",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DEMAND ANCHOR"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DEMAND ANCHOR",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#58D8E4",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DEMAND ANCHOR",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#58D8E4",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zulc7a1",
+      "id": "5",
+      "bbox": [
+        354,
+        189,
+        833,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.",
+      "textPreview": "Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#EEF6F4",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Residents and firms change location gradually. Latency-sensitive demand"
+          },
+          {
+            "index": 2,
+            "text": "may stay tied to the metro."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#EEF6F4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#EEF6F4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zyl4j29g",
+      "id": "6",
+      "bbox": [
+        82,
+        320,
+        245,
+        64
+      ],
+      "geometry": "rect",
+      "text": "LAND OPTION",
+      "textPreview": "LAND OPTION",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#F0AA6B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "LAND OPTION"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "LAND OPTION",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#F0AA6B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "LAND OPTION",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#F0AA6B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/exc3axsv",
+      "id": "7",
+      "bbox": [
+        354,
+        319,
+        833,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.",
+      "textPreview": "Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#EEF6F4",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Suburban sites near fiber and grid are scarcer than rural acreage. Preserve"
+          },
+          {
+            "index": 2,
+            "text": "expansion room early."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#EEF6F4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#EEF6F4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5w7mxwrq",
+      "id": "8",
+      "bbox": [
+        82,
+        450,
+        245,
+        64
+      ],
+      "geometry": "rect",
+      "text": "DURABLE LINKS",
+      "textPreview": "DURABLE LINKS",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#89D9BF",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "DURABLE LINKS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "DURABLE LINKS",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#89D9BF",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "DURABLE LINKS",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#89D9BF",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kve5ora5",
+      "id": "9",
+      "bbox": [
+        354,
+        449,
+        833,
+        84
+      ],
+      "geometry": "rect",
+      "text": "Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.",
+      "textPreview": "Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "Arial",
+        "color": "#EEF6F4",
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Power, carrier and heat links can outlast GPUs. Refresh hardware and"
+          },
+          {
+            "index": 2,
+            "text": "reroute work as demand changes."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "typeface": "Arial",
+            "color": "#EEF6F4",
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.",
+              "fontSize": 25,
+              "typeface": "Arial",
+              "color": "#EEF6F4",
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yl4b2lgr",
+      "id": "10",
+      "bbox": [
+        82,
+        301,
+        1116,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#294451",
+      "lineWidth": 2
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jmxsb6hc",
+      "id": "11",
+      "bbox": [
+        82,
+        431,
+        1116,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#294451",
+      "lineWidth": 2
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/k76t4byx",
+      "id": "12",
+      "bbox": [
+        126,
+        621,
+        1028,
+        0
+      ],
+      "geometry": "line",
+      "lineColor": "#294451",
+      "lineWidth": 3
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l8fadgz2",
+      "id": "13",
+      "bbox": [
+        170,
+        612,
+        18,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#F0AA6B",
+      "lineColor": "#071722",
+      "lineWidth": 1
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ah4by1gf",
+      "id": "14",
+      "bbox": [
+        40,
+        643,
+        278,
+        39
+      ],
+      "geometry": "rect",
+      "text": "2030  VERIFY",
+      "textPreview": "2030  VERIFY",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Arial",
+        "color": "#F0AA6B",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2030  VERIFY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2030  VERIFY",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#F0AA6B",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2030  VERIFY",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#F0AA6B",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bids76h0",
+      "id": "15",
+      "bbox": [
+        631,
+        612,
+        18,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#58D8E4",
+      "lineColor": "#071722",
+      "lineWidth": 1
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wjmt0byl",
+      "id": "16",
+      "bbox": [
+        501,
+        643,
+        278,
+        39
+      ],
+      "geometry": "rect",
+      "text": "2040  PHASE",
+      "textPreview": "2040  PHASE",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Arial",
+        "color": "#58D8E4",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2040  PHASE"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2040  PHASE",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#58D8E4",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2040  PHASE",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#58D8E4",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xkva9gz6",
+      "id": "17",
+      "bbox": [
+        1091,
+        612,
+        18,
+        18
+      ],
+      "geometry": "ellipse",
+      "fillColor": "#89D9BF",
+      "lineColor": "#071722",
+      "lineWidth": 1
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udoba5gz",
+      "id": "18",
+      "bbox": [
+        961,
+        643,
+        278,
+        39
+      ],
+      "geometry": "rect",
+      "text": "2050  REASSESS",
+      "textPreview": "2050  REASSESS",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "Arial",
+        "color": "#89D9BF",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 0,
+          "right": 0,
+          "bottom": 0,
+          "left": 0
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "2050  REASSESS"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "2050  REASSESS",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "typeface": "Arial",
+            "color": "#89D9BF",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "2050  REASSESS",
+              "fontSize": 21,
+              "typeface": "Arial",
+              "color": "#89D9BF",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

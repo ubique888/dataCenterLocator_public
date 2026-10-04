@@ -1,0 +1,41 @@
+{
+  "source_zip_sha256": "20296ac41aca625546d84c11c1d238686ce6d65860b36760c8f1871ad8cd1093",
+  "raw_rows": 5329863,
+  "selected_facilities": 74649,
+  "valid_coordinate_facilities": 68820,
+  "missing_or_invalid_coordinate_facilities": 5829,
+  "sector_facilities": {
+    "food": 21881,
+    "beverage": 3785,
+    "paper": 6804,
+    "chemical": 32342,
+    "metal": 11058
+  },
+  "sites_enriched": 190976,
+  "passing_sites": 8479,
+  "passing_with_5km_industry": 5185,
+  "nested_counts_valid": true,
+  "nearest_distance_min_km": 0.0,
+  "random20_site_ids": [
+    174739,
+    39630,
+    147141,
+    51695,
+    145325,
+    39210,
+    43959,
+    33208,
+    26291,
+    156822,
+    160058,
+    170951,
+    174796,
+    157673,
+    158144,
+    43172,
+    196869,
+    158282,
+    155182,
+    169730
+  ]
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "name": "eamlis_mapping_page_0",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultOffset=0&resultRecordCount=2000&f=json",
+    "exit_code": 0,
+    "seconds": 0.35,
+    "bytes": 618040,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 2000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_mapping_page_2000",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultOffset=2000&resultRecordCount=2000&f=json",
+    "exit_code": 0,
+    "seconds": 0.82,
+    "bytes": 637208,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 2000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_mapping_page_4000",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultOffset=4000&resultRecordCount=2000&f=json",
+    "exit_code": 0,
+    "seconds": 0.35,
+    "bytes": 633221,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 2000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_mapping_page_6000",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultOffset=6000&resultRecordCount=2000&f=json",
+    "exit_code": 0,
+    "seconds": 0.31,
+    "bytes": 625087,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 2000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_mapping_page_8000",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&outFields=%2A&returnGeometry=false&orderByFields=OBJECTID&resultOffset=8000&resultRecordCount=2000&f=json",
+    "exit_code": 0,
+    "seconds": 0.17,
+    "bytes": 289614,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 937,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_postuse_meta",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/PostMiningLandUse/MapServer/0?f=pjson",
+    "exit_code": 0,
+    "seconds": 0.27,
+    "bytes": 22379,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_postuse_count",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/PostMiningLandUse/MapServer/0/query?where=1%3D1&returnCountOnly=true&f=json",
+    "exit_code": 0,
+    "seconds": 0.34,
+    "bytes": 15,
+    "stderr": "",
+    "error": null,
+    "count": 16925,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_postuse_sample",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/PostMiningLandUse/MapServer/0/query?where=1%3D1&outFields=%2A&returnGeometry=false&orderByFields=objectid&resultRecordCount=100&f=json",
+    "exit_code": 0,
+    "seconds": 0.36,
+    "bytes": 48730,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 100,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_linked_problems_sample",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/0/query?where=AMLIS_KEY+IN+%28%27PA005042%27%2C%27WV001352%27%2C%27WV004837%27%2C%27WV000239%27%29&outFields=%2A&returnGeometry=true&outSR=4326&f=json",
+    "exit_code": 0,
+    "seconds": 0.17,
+    "bytes": 4911,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 11,
+    "exceededTransferLimit": null
+  }
+]

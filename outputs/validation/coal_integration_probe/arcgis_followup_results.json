@@ -1,0 +1,62 @@
+[
+  {
+    "name": "geomine_source_stats",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0/query?where=1%3D1&groupByFieldsForStatistics=contact&outStatistics=%5B%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22objectid%22%2C+%22outStatisticFieldName%22%3A+%22record_count%22%7D%2C+%7B%22statisticType%22%3A+%22count%22%2C+%22onStatisticField%22%3A+%22msha_id%22%2C+%22outStatisticFieldName%22%3A+%22msha_nonnull%22%7D%2C+%7B%22statisticType%22%3A+%22min%22%2C+%22onStatisticField%22%3A+%22edit_date%22%2C+%22outStatisticFieldName%22%3A+%22oldest_edit%22%7D%2C+%7B%22statisticType%22%3A+%22max%22%2C+%22onStatisticField%22%3A+%22edit_date%22%2C+%22outStatisticFieldName%22%3A+%22latest_edit%22%7D%5D&returnGeometry=false&f=json",
+    "exit_code": 0,
+    "seconds": 1.15,
+    "bytes": 3010,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 22,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_msha_id_sample",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0/query?where=msha_id+IS+NOT+NULL+AND+msha_id+%3C%3E+%27%27+AND+msha_id+%3C%3E+%27+%27&outFields=objectid%2Cmsha_id%2Cpermit_id%2Cnational_id%2Cmine_name%2Ccontact&returnGeometry=false&orderByFields=objectid&resultRecordCount=1000&f=json",
+    "exit_code": 0,
+    "seconds": 0.38,
+    "bytes": 136082,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 1000,
+    "exceededTransferLimit": true
+  },
+  {
+    "name": "eamlis_mapping_coalstate_count",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+LIKE+%27PA%25%27+OR+AMLIS_KEY+LIKE+%27WV%25%27+OR+AMLIS_KEY+LIKE+%27VA%25%27&returnCountOnly=true&f=json",
+    "exit_code": 0,
+    "seconds": 0.24,
+    "bytes": 14,
+    "stderr": "",
+    "error": null,
+    "count": 8937,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "eamlis_mapping_sample",
+    "url": "https://eamlis.osmre.gov/arcgis/rest/services/ProblemsStatus/MapServer/1/query?where=AMLIS_KEY+IN+%28%27PA005046%27%2C%27PA005045%27%2C%27PA005042%27%2C%27WV001352%27%2C%27WV004837%27%2C%27WV000239%27%29&outFields=%2A&returnGeometry=false&f=json",
+    "exit_code": 0,
+    "seconds": 0.18,
+    "bytes": 2890,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 4,
+    "exceededTransferLimit": null
+  },
+  {
+    "name": "geomine_services",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine?f=pjson",
+    "exit_code": 0,
+    "seconds": 0.15,
+    "bytes": 798,
+    "stderr": "",
+    "error": null,
+    "count": null,
+    "sample_rows": 0,
+    "exceededTransferLimit": null
+  }
+]

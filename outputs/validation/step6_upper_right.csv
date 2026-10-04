@@ -1,0 +1,3 @@
+site_id,site_name,state,inheritance_score,symbiosis_score,power_identity_evidence,industrial_sites_5km,nearest_industrial_sink_km,wwtp_count_5km,nearest_wwtp_km,wastewater_flow_10km,industrial_component,heat_sink_proximity_component,wastewater_proximity_component,wastewater_availability_component,water_reuse_component
+40157,CON EDISON - ASTORIA,NY,78.45816500000001,93.21180335797345,name_corrob,37,0.657597325111117,3,1.1667716749021442,1201.02,81.33333333333333,96.84805349777766,95.55485550065237,100.0,97.33291330039143
+39272,NEW ENGLAND POWER COMPANY,MA,61.1857883,79.98692298684779,power_site_very_close,23,1.929087203507259,1,0.269816897930472,29.71,72.0,76.06369194739112,100.0,64.855,85.94200000000001

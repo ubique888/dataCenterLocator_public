@@ -1,0 +1,204 @@
+{
+  "eamlis_mapping_rows_in_three_states": 8937,
+  "eamlis_unique_mapping_keys": 8937,
+  "candidate_coal_program_rows": 3626,
+  "candidate_normalizable_keys": 3516,
+  "candidate_key_matches": 2168,
+  "candidate_distinct_matched_keys": 2145,
+  "candidate_matches_invalid_coordinates": 10,
+  "candidate_matches_name_agrees": 1923,
+  "candidate_matches_valid_coordinates_over_1km": 111,
+  "matches_by_state": {
+    "PA": {
+      "candidate_rows": 2289,
+      "key_matches": 1254,
+      "within_100m": 774,
+      "within_1km": 1214,
+      "over_1km": 40
+    },
+    "VA": {
+      "candidate_rows": 108,
+      "key_matches": 0,
+      "within_100m": 0,
+      "within_1km": 0,
+      "over_1km": 0
+    },
+    "WV": {
+      "candidate_rows": 1229,
+      "key_matches": 914,
+      "within_100m": 304,
+      "within_1km": 833,
+      "over_1km": 81
+    }
+  },
+  "match_distances_km_quantiles": {
+    "0.0": 9.590246879154247e-10,
+    "0.5": 0.10114903720061155,
+    "0.9": 0.6920757403685527,
+    "0.95": 1.0759262444146394,
+    "1.0": 9189.536627525953
+  },
+  "usable_coordinate_match_distances_km_quantiles": {
+    "0.0": 9.590246879154247e-10,
+    "0.5": 0.10031927367621589,
+    "0.9": 0.6633421049105652,
+    "0.95": 1.0153769636376553,
+    "1.0": 84.5985376994116
+  },
+  "mapping_mine_type_codes": {
+    "U": 3922,
+    "S": 2755,
+    "B": 1892,
+    "P": 294,
+    "nan": 74
+  },
+  "geomine_boundary_features": 78389,
+  "geomine_boundary_msha_nonnull": 10719,
+  "geomine_boundary_pa_wv_va_msha_nonnull": [
+    {
+      "contact": 20,
+      "record_count": 36729,
+      "msha_nonnull": 0
+    },
+    {
+      "contact": 1,
+      "record_count": 574,
+      "msha_nonnull": 0
+    },
+    {
+      "contact": 2,
+      "record_count": 4229,
+      "msha_nonnull": 0
+    }
+  ],
+  "geomine_geojson_sample": {
+    "features": 3,
+    "bytes": 367464,
+    "geometry_types": [
+      "Polygon",
+      "MultiPolygon",
+      "Polygon"
+    ],
+    "valid_geometries": [
+      true,
+      true,
+      true
+    ],
+    "bounds": [
+      [
+        -80.8357460277184,
+        38.3581760140412,
+        -80.82999850052941,
+        38.3627791079198
+      ],
+      [
+        -81.65228626386448,
+        37.92238969784937,
+        -81.55331717568872,
+        37.979725052681616
+      ],
+      [
+        -81.85866913209611,
+        37.82121677040061,
+        -81.82779862886696,
+        37.840336924443115
+      ]
+    ]
+  },
+  "postmining_fields": [
+    "objectid",
+    "permittee",
+    "company",
+    "permit_id",
+    "national_id",
+    "land_use_type",
+    "calculated_area",
+    "reported_area",
+    "permit_application_date",
+    "permit_approval_date",
+    "edit_date",
+    "comment",
+    "contact",
+    "information_link",
+    "shape",
+    "st_area(shape)",
+    "st_perimeter(shape)"
+  ],
+  "postmining_domains": {
+    "land_use_type": {
+      "type": "codedValue",
+      "name": "LandUseType",
+      "description": "Domain Definition for Land Use Type",
+      "codedValues": [
+        {
+          "name": "Pasture/Hayland",
+          "code": 1
+        },
+        {
+          "name": "Grazing land",
+          "code": 2
+        },
+        {
+          "name": "Forestry",
+          "code": 3
+        },
+        {
+          "name": "Fish and Wildlife Habitat",
+          "code": 4
+        },
+        {
+          "name": "Developed Water Resources (Water Impoundments)",
+          "code": 5
+        },
+        {
+          "name": "Public Utilities/Facilities",
+          "code": 6
+        },
+        {
+          "name": "Industrial and Commercial Services",
+          "code": 7
+        },
+        {
+          "name": "Recreation",
+          "code": 8
+        },
+        {
+          "name": "Undeveloped Land or No Current Use or Land Management",
+          "code": 9
+        },
+        {
+          "name": "Cropland",
+          "code": 10
+        },
+        {
+          "name": "Residential",
+          "code": 11
+        }
+      ],
+      "mergePolicy": "esriMPTDefaultValue",
+      "splitPolicy": "esriSPTDefaultValue"
+    }
+  },
+  "problem_rows_per_sample_key": {
+    "WV000239": 5,
+    "PA005042": 3,
+    "WV001352": 2,
+    "WV004837": 1
+  },
+  "problem_statuses_per_sample_key": {
+    "PA005042": [
+      "In Reclamation",
+      "Reclamation Completed"
+    ],
+    "WV000239": [
+      "Reclamation Completed",
+      "Reclamation Pending"
+    ],
+    "WV001352": [
+      "Reclamation Pending"
+    ],
+    "WV004837": [
+      "Reclamation Completed"
+    ]
+  }
+}

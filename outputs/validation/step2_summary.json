@@ -1,0 +1,132 @@
+{
+  "source_url": "https://www.eia.gov/electricity/data/eia860m/xls/august_generator2026.xlsx",
+  "source_file": "data/raw/eia/august_generator2026.xlsx",
+  "source_sha256": "b4b70abb4c217e8e2658c3bde7608a3d530e86a81279ccc572ced82a200e9f1c",
+  "source_version": "August 2026 EIA-860M, released September 24, 2026",
+  "download_date": "2026-10-03",
+  "source_sheets": [
+    "Retired",
+    "Retired_PR",
+    "Operating",
+    "Operating_PR"
+  ],
+  "source_columns_file": "outputs/validation/eia_retired_source_columns.json",
+  "used_retired_columns": [
+    "Plant ID",
+    "Plant Name",
+    "Generator ID",
+    "Nameplate Capacity (MW)",
+    "Energy Source Code",
+    "Retirement Year",
+    "Latitude",
+    "Longitude"
+  ],
+  "match_radius_km": 2,
+  "capacity_interpretation": "Sum of retired generator nameplate MW; historical infrastructure-scale proxy, not currently available grid capacity.",
+  "former_power_plant_rule": "Retired generators present and no generator in EIA-860M Operating or Operating_PR for the same Plant ID.",
+  "statistics": {
+    "retired_generator_rows_with_plant_id": 7334,
+    "retired_power_plants_loaded": 2662,
+    "fully_retired_plants_with_valid_coordinates": 1754,
+    "all_epa_sites_matched": 13204,
+    "initial_filter_sites_matched": 472,
+    "initial_filter_match_percentage": 5.57,
+    "median_match_distance_km": 0.9652,
+    "former_coal_candidate_sites": 50,
+    "former_natural_gas_candidate_sites": 154,
+    "site_id_duplicates": 0
+  },
+  "random_match_seed": 42,
+  "random_matched_sample": [
+    {
+      "site_id": 43383,
+      "site_name": "OCEAN COUNTY LF",
+      "matched_power_plant_name": "Ocean County Landfill",
+      "power_site_distance_km": 0.41492191757416236,
+      "former_capacity_mw": 14.4,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "high"
+    },
+    {
+      "site_id": 152374,
+      "site_name": "MONMOUTH COUNTY RECLAMATION CENTER",
+      "matched_power_plant_name": "Monmouth Landfill Gas to Energy",
+      "power_site_distance_km": 0.7204231654984393,
+      "former_capacity_mw": 9.8,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "medium"
+    },
+    {
+      "site_id": 51819,
+      "site_name": "BFI OF NORTH AMERICA",
+      "matched_power_plant_name": "East Bridgewater",
+      "power_site_distance_km": 0.23892979856122448,
+      "former_capacity_mw": 6.0,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "very_high"
+    },
+    {
+      "site_id": 176863,
+      "site_name": "HALLETT DOCK 7",
+      "matched_power_plant_name": "Duluth Paper Mill",
+      "power_site_distance_km": 1.2768246891693638,
+      "former_capacity_mw": 10.6,
+      "former_primary_fuel": "PUR",
+      "power_match_confidence": "low"
+    },
+    {
+      "site_id": 42470,
+      "site_name": "DAVIS JUNCTION LANDFILL",
+      "matched_power_plant_name": "Orchard Hills Renewable Energy Station",
+      "power_site_distance_km": 0.5871761859479374,
+      "former_capacity_mw": 16.2,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "medium"
+    },
+    {
+      "site_id": 16683,
+      "site_name": "PRESCOTT COMMUNITY GARDEN",
+      "matched_power_plant_name": "Kaw",
+      "power_site_distance_km": 1.9274756279308096,
+      "former_capacity_mw": 165.7,
+      "former_primary_fuel": "NG",
+      "power_match_confidence": "low"
+    },
+    {
+      "site_id": 43902,
+      "site_name": "MIDDLE POINT LANDFILL",
+      "matched_power_plant_name": "Middle Point Landfill Gas Recovery",
+      "power_site_distance_km": 1.7200039089665378,
+      "former_capacity_mw": 2.8,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "low"
+    },
+    {
+      "site_id": 175927,
+      "site_name": "WALLINGFORD BW LANDFILL",
+      "matched_power_plant_name": "John Street 1, 3, 4 & 5",
+      "power_site_distance_km": 0.392944470609913,
+      "former_capacity_mw": 7.2,
+      "former_primary_fuel": "DFO",
+      "power_match_confidence": "high"
+    },
+    {
+      "site_id": 43655,
+      "site_name": "BETHLEHEM LANDFILL",
+      "matched_power_plant_name": "Bethlehem Renewable Energy LLC",
+      "power_site_distance_km": 0.4682080859387508,
+      "former_capacity_mw": 5.5,
+      "former_primary_fuel": "LFG",
+      "power_match_confidence": "high"
+    },
+    {
+      "site_id": 152302,
+      "site_name": "1947 CORPS SANITARY LANDFILL",
+      "matched_power_plant_name": "PSEG Hudson Generating Station",
+      "power_site_distance_km": 1.824853498516308,
+      "former_capacity_mw": 1229.6000000000001,
+      "former_primary_fuel": "NG",
+      "power_match_confidence": "low"
+    }
+  ]
+}

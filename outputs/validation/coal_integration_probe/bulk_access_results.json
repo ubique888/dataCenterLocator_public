@@ -1,0 +1,32 @@
+[
+  {
+    "file": "Mines.zip",
+    "url": "https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines.zip",
+    "final_url": "https://arlweb.msha.gov/OpenGovernmentData/DataSets/Mines.zip",
+    "status": 200,
+    "content_type": "application/x-zip-compressed",
+    "last_modified": "Fri, 02 Oct 2026 11:09:30 GMT",
+    "bytes": 7306254,
+    "sha256": "c74533dd6aa42bf385e725af4a92501eb622a236f6819eaaea80a70417deae09"
+  },
+  {
+    "file": "geomine_boundary_meta.json",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0?f=pjson",
+    "error": "HTTPSConnectionPool(host='geodata.osmre.gov', port=443): Max retries exceeded with url: /arcgis/rest/services/GeoMine/AllCoalmineOperations/MapServer/0?f=pjson (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  },
+  {
+    "file": "geomine_bond_meta.json",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/ReclamationBondStatus/MapServer/0?f=pjson",
+    "error": "HTTPSConnectionPool(host='geodata.osmre.gov', port=443): Max retries exceeded with url: /arcgis/rest/services/GeoMine/ReclamationBondStatus/MapServer/0?f=pjson (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  },
+  {
+    "file": "geomine_landuse_meta.json",
+    "url": "https://geodata.osmre.gov/arcgis/rest/services/GeoMine/PostMiningLandUse/MapServer/0?f=pjson",
+    "error": "HTTPSConnectionPool(host='geodata.osmre.gov', port=443): Max retries exceeded with url: /arcgis/rest/services/GeoMine/PostMiningLandUse/MapServer/0?f=pjson (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  },
+  {
+    "file": "amlisprod.html",
+    "url": "https://amlisprod.osmre.gov/",
+    "error": "HTTPSConnectionPool(host='amlisprod.osmre.gov', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1032)')))"
+  }
+]

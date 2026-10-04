@@ -1,0 +1,18 @@
+{
+  "candidate_rows": 8479,
+  "feature_columns": 71,
+  "unique_ids": 8479,
+  "html_site_records": 8479,
+  "evidence_backed_power_records": 14,
+  "raw_nearby_eia_matches": 472,
+  "selected_external_checks": 15,
+  "local_site_entries": 6502,
+  "local_industry_pairs": 77749,
+  "local_wwtp_pairs": 6514,
+  "eia_capacity_null": 8007,
+  "nearby_wwtp_missing_flow": 1146,
+  "nearby_wwtp_reported_zero": 1,
+  "flagged_transmission_voltage": 4,
+  "osmtile_references": 0,
+  "unresolved_html_placeholders": 0
+}

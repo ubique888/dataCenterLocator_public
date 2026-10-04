@@ -1,0 +1,64 @@
+{
+  "all_sites": 190976,
+  "passing_sites": 8479,
+  "passing_scores_missing": 0,
+  "score_missing_count": 121227,
+  "component_ranges": {
+    "power_legacy_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "transmission_component": {
+      "min": 5.595652173913043,
+      "max": 100.0
+    },
+    "substation_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "land_component": {
+      "min": 6.16857306488e-06,
+      "max": 100.0
+    },
+    "transport_component": {
+      "min": 0.0,
+      "max": 100.0
+    },
+    "inheritance_score": {
+      "min": 1.449,
+      "max": 89.32151866565
+    }
+  },
+  "top20_site_ids": [
+    155581,
+    154014,
+    38760,
+    136466,
+    136364,
+    136149,
+    136232,
+    38263,
+    40157,
+    41496,
+    152285,
+    50873,
+    39272,
+    174294,
+    41491,
+    136212,
+    174437,
+    175090,
+    1784,
+    174511
+  ],
+  "top20_with_power_identity_evidence": 13,
+  "top20_without_power_identity_evidence": [
+    174294,
+    41491,
+    136212,
+    174437,
+    175090,
+    1784,
+    174511
+  ]
+}

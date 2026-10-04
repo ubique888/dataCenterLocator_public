@@ -1,0 +1,189 @@
+{
+  "audit_date": "2026-10-03",
+  "files": {
+    "Mines.zip": {
+      "bytes": 7306254,
+      "sha256": "c74533dd6aa42bf385e725af4a92501eb622a236f6819eaaea80a70417deae09"
+    },
+    "access_results.json": {
+      "bytes": 2086,
+      "sha256": "8bf84f0a5989fceb25aa8bbbc384e946c5fe27724e517080d8f3715c6088f968"
+    },
+    "arcgis_access_results.json": {
+      "bytes": 3453,
+      "sha256": "096111ea2a979b4e225715f70b2c56d41478b6d515639f8d77a90f7faa384e55"
+    },
+    "arcgis_followup_results.json": {
+      "bytes": 2749,
+      "sha256": "81e933ccf8929b03465bc41777baba39332a2fb4af0bf01b9d083ad38ade6f29"
+    },
+    "arcgis_linkage_results.json": {
+      "bytes": 4161,
+      "sha256": "ea8efd879b8c385ff179f1291fa4050e1235c40a1b9dcda4cc63dceacfd4d6f4"
+    },
+    "arcgis_profile.json": {
+      "bytes": 4422,
+      "sha256": "ac3bba4ed6673d7e925adb8c247b722e56cc255a3769c56830e45a2bf60683dc"
+    },
+    "bulk_access_results.json": {
+      "bytes": 2274,
+      "sha256": "29362c4a49f266804c8195b79ca8abfc3a0f35fb684ccf49e8ac8a248adbaf3b"
+    },
+    "eamlis_key_link_diagnostic.csv": {
+      "bytes": 313414,
+      "sha256": "3fa372a12e8042b4986c304482d9a8305f35703fae6efeaed10de349e1d3a339"
+    },
+    "eamlis_layer_meta.json": {
+      "bytes": 4947,
+      "sha256": "61c758969c247e5620c36367f5e250396fa69e7e22973d729bbbc1321754d1cc"
+    },
+    "eamlis_linked_problems_sample.json": {
+      "bytes": 4911,
+      "sha256": "aad3663e0cfddaca263f2961756d156720f469560019b7b7406a22cd23c7795d"
+    },
+    "eamlis_mapping_coalstate_count.json": {
+      "bytes": 14,
+      "sha256": "73aeb8fb588faa4734defc17fd2b51f99b485dd26d3642419e5982acbca29b12"
+    },
+    "eamlis_mapping_page_0.json": {
+      "bytes": 618040,
+      "sha256": "24e52923c0b4ecf66299f0e6c869e09bb2f4c9c0755cb19f8c31b2f89bbf4f5e"
+    },
+    "eamlis_mapping_page_2000.json": {
+      "bytes": 637208,
+      "sha256": "64df7df416908a9c661836a064361f88a97c10dd46b0495bb98d7ab14eff4b33"
+    },
+    "eamlis_mapping_page_4000.json": {
+      "bytes": 633221,
+      "sha256": "3da6254d2551b0e1e61ef31236ceacf0dc4026b77b3593ee514c23b09dd0e7c5"
+    },
+    "eamlis_mapping_page_6000.json": {
+      "bytes": 625087,
+      "sha256": "a7ac3d52ab0ffa65b509d1ad61ececf1b82a63090c44a021d850947b1c9ebab7"
+    },
+    "eamlis_mapping_page_8000.json": {
+      "bytes": 289614,
+      "sha256": "77a432648a58d2cb7b6fd44686c969e6d327159ecfa44f8e4241d9b66e46934d"
+    },
+    "eamlis_mapping_sample.json": {
+      "bytes": 2890,
+      "sha256": "8996cf754e72fe698f3658fbaf23d8e07136d9ea75c90709d2489e9a309b64ed"
+    },
+    "eamlis_problem_count.json": {
+      "bytes": 15,
+      "sha256": "7141a4a4e72fb8d4f48f68a6120f074b90d8ee9281f40471c78a8970c43fad93"
+    },
+    "eamlis_problem_sample.json": {
+      "bytes": 34814,
+      "sha256": "d159b98f143aa99d9981d56d2744b53a5d3ba59f214659661a77fc3ceed4fee7"
+    },
+    "eamlis_service.json": {
+      "bytes": 2675,
+      "sha256": "61e34009c5d7a3c2eeb626d26bb2c063d001cb61b82c0d14a4bf897d3aabf9d1"
+    },
+    "eamlis_table_meta.json": {
+      "bytes": 3677,
+      "sha256": "d1e32426b9cdac284443830cc7ee47ed946cda946ebad2a731ea95857482d516"
+    },
+    "geomine_bond_count.json": {
+      "bytes": 15,
+      "sha256": "283ef4b11189553184f886498d258aab882af7b79aa3480c9840b9ced1038dc8"
+    },
+    "geomine_bond_meta.json": {
+      "bytes": 22460,
+      "sha256": "f9a26d743d7d0c25c521226faca6ca98bf7fdbb61cb68fe70d77bfdbad8cb8f1"
+    },
+    "geomine_bond_sample.json": {
+      "bytes": 59810,
+      "sha256": "a47da7c01a1035a37f22627ca28a13165a79c0ec2cd604f07d57605ed49a8f21"
+    },
+    "geomine_boundary_count.json": {
+      "bytes": 15,
+      "sha256": "4f2ea91c2118cb1230d4e767e1530901065ba8e89b5b69d68b9619270198d43a"
+    },
+    "geomine_boundary_geometry.json": {
+      "bytes": 367464,
+      "sha256": "bef7413cd360c06b18c0639082690778b9ccfc324b4e348f4be0e770213fc81c"
+    },
+    "geomine_boundary_meta.json": {
+      "bytes": 26303,
+      "sha256": "fa531981b33f1462d2ec197a34dd8eb5224ef0e3e8d6c58edf093c73011ba753"
+    },
+    "geomine_boundary_sample.json": {
+      "bytes": 746937,
+      "sha256": "b013c60ede8242a799857e5171d1010aa254f117fc1a6a58f8dd12a828f7381b"
+    },
+    "geomine_msha_id_sample.json": {
+      "bytes": 136082,
+      "sha256": "de572a43f9f5e60aa9c841c9b28b8c9f83e8941d1135a47e67bdf0afdccce95c"
+    },
+    "geomine_postuse_count.json": {
+      "bytes": 15,
+      "sha256": "87ca009d9cd15732e0d074604661344ba3bb621bbaa369555e7e39629fb4e16a"
+    },
+    "geomine_postuse_meta.json": {
+      "bytes": 22379,
+      "sha256": "e53b1a45745db2bf91f57289c6bf509cdfd9e2ca568a34710b434b70ea96341f"
+    },
+    "geomine_postuse_sample.json": {
+      "bytes": 48730,
+      "sha256": "b7604fe58785ec5305c3e2fa90fa65f0dc1d1ad00483224b80bc832200ff5388"
+    },
+    "geomine_services.json": {
+      "bytes": 798,
+      "sha256": "db92a3605fff1abe989494c591c3040150a2fc70f28ffbe6ecc6465bc933fad6"
+    },
+    "geomine_source_stats.json": {
+      "bytes": 3010,
+      "sha256": "20fa35b0d3d443c619a64b235755ff974c3cccda9081b86e2cd84a948cb57a41"
+    },
+    "msha_definition.txt": {
+      "bytes": 10285,
+      "sha256": "efd2bc2c493207a464be7c4e4795ffd08a221588b76b716ee334a75dfc14f1f9"
+    },
+    "msha_portal.txt": {
+      "bytes": 91983,
+      "sha256": "0520d1b31a77716d7f83a2dc5479a51119e77c5cec8cf8a2897282de38227a64"
+    },
+    "msha_profile.json": {
+      "bytes": 3246,
+      "sha256": "461830445b15430a8b94b4775ad87eed1ed143581a14270e3d97dffc318f2d16"
+    },
+    "msha_proximity_diagnostic.csv": {
+      "bytes": 838166,
+      "sha256": "fa20549dee153244075dc5614888485164709d4340cd4de77af33be195b92f6b"
+    },
+    "probe_arcgis.py": {
+      "bytes": 2853,
+      "sha256": "8258bdfd37ab85058f2b2a7a1679d35816779a520a4e0746fda177c4476d3380"
+    },
+    "probe_bulk.py": {
+      "bytes": 1572,
+      "sha256": "3a5fa4b98333c2c8ef04b64a0d43725d84123aaef28bd87c35a2dc102ee5092b"
+    },
+    "probe_sources.py": {
+      "bytes": 1569,
+      "sha256": "2d86f99c33877cb5609dab9879d41d48fe403b6fe61b95ce324c592c7e27eb48"
+    },
+    "profile_arcgis.log": {
+      "bytes": 4423,
+      "sha256": "4df07c885aaf99baa299bbd82935ede84d6f50f038c9b18709fa0913a15c8a32"
+    },
+    "profile_arcgis.py": {
+      "bytes": 4852,
+      "sha256": "c33c923f50fe6146f189174a7c2bf5f5d4a202194a772bf7aff2b1a0955177e9"
+    },
+    "profile_msha.log": {
+      "bytes": 3247,
+      "sha256": "e89d27d152d95951ae4f61358938054f89e79b2af17e58b32ccca6309134244c"
+    },
+    "profile_msha.py": {
+      "bytes": 4981,
+      "sha256": "f8ea991e027ffd9ff2aa21ceb4939fb1cb6ededa32d57da9442126d1a84f601e"
+    },
+    "sierraclub_map.txt": {
+      "bytes": 883,
+      "sha256": "73242d42ce51922ee880a701069580b568a1b4bd921188627f0b3158056009c4"
+    }
+  }
+}

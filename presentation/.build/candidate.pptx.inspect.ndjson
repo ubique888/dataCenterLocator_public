@@ -1,0 +1,127 @@
+{"kind":"deck","id":"pr/auf44v","name":"Deck"}
+{"kind":"layout","layoutId":"7a6f4f05-f823-4de8-a3f2-c097046ce0cd","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"02a21e33-a39d-4c1a-9641-fffc2bd8d067","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/p0pdjz","slide":1,"title":"Urban inference can","textShapes":3}
+{"kind":"textbox","id":"sh/9sjm5wjq","slide":1,"name":"s1-title","text":"Urban inference can\nbelong near demand","textPreview":"Urban inference can | belong near demand","textChars":38,"textLines":2,"bbox":[76,176,620,175]}
+{"kind":"textbox","id":"sh/8ralwbi5","slide":1,"name":"s1-copy","text":"Cheap land pulls facilities outward. Interactive AI pulls compute toward users. Existing urban infrastructure may make that trade worthwhile.","textPreview":"Cheap land pulls facilities outward. Interactive AI pulls compute toward users. Existing urban infrastructure may make that trade worthwh...","textChars":141,"textLines":1,"bbox":[80,420,540,126]}
+{"kind":"textbox","id":"sh/vu14761w","slide":1,"name":"s1-number","text":"01/07","textPreview":"01/07","textChars":5,"textLines":1,"bbox":[1168,49,58,36]}
+{"kind":"image","id":"im/j29sna5g","slide":1,"name":"","alt":"Illustrative urban industrial waterfront with a compact inference facility and network paths","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/p0pdjz","slide":1,"text":"The obvious answer for a data center is cheap land far from the city. Our project asks whether that changes for interactive AI inference. A request has to reach the model and return to the user, so the right location can depend on the network and the people it serves. We are testing an urban industrial site as a compact inference node, with slower work sent to a lower-cost regional facility. This is a siting hypothesis, not a measured latency result.\n\nSource: `../docs/six_page_story.md`, Page 1."}
+{"kind":"slide","id":"sl/9uuy0r","slide":2,"title":"Density raises costs and creates synergies","textShapes":11}
+{"kind":"textbox","id":"sh/sf6hov6t","slide":2,"name":"s2-title","text":"Density raises costs and creates synergies","textPreview":"Density raises costs and creates synergies","textChars":42,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/rex0fq58","slide":2,"name":"s2-number","text":"02/07","textPreview":"02/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/qdozmlon","slide":2,"bbox":[72,151,1136,0]}
+{"kind":"shape","id":"sh/5cfidgn2","slide":2,"bbox":[640,210,0,380]}
+{"kind":"textbox","id":"sh/4bmhkb6h","slide":2,"text":"COST","textPreview":"COST","textChars":4,"textLines":1,"bbox":[94,208,490,47]}
+{"kind":"textbox","id":"sh/3qd0b65c","slide":2,"text":"Land","textPreview":"Land","textChars":4,"textLines":1,"bbox":[94,281,485,51]}
+{"kind":"textbox","id":"sh/ip4zi1or","slide":2,"text":"Grid competition","textPreview":"Grid competition","textChars":16,"textLines":1,"bbox":[94,360,485,51]}
+{"kind":"textbox","id":"sh/hovi9wn6","slide":2,"text":"Permits and community","textPreview":"Permits and community","textChars":21,"textLines":1,"bbox":[94,439,500,51]}
+{"kind":"textbox","id":"sh/wnmhgr6l","slide":2,"text":"SYNERGY","textPreview":"SYNERGY","textChars":7,"textLines":1,"bbox":[700,208,480,47]}
+{"kind":"textbox","id":"sh/u9wnyxcv","slide":2,"text":"Users and networks","textPreview":"Users and networks","textChars":18,"textLines":1,"bbox":[700,281,490,51]}
+{"kind":"textbox","id":"sh/va5or2tg","slide":2,"text":"Workforce and heat customers","textPreview":"Workforce and heat customers","textChars":28,"textLines":1,"bbox":[700,360,500,51]}
+{"kind":"textbox","id":"sh/gbe507ul","slide":2,"text":"Reused industrial sites","textPreview":"Reused industrial sites","textChars":23,"textLines":1,"bbox":[700,439,490,51]}
+{"kind":"textbox","id":"sh/hc76tcb6","slide":2,"text":"Both sides need site-level proof.","textPreview":"Both sides need site-level proof.","textChars":33,"textLines":1,"bbox":[94,608,1080,55]}
+{"kind":"notes","id":"nt/9uuy0r","slide":2,"text":"Density cuts both ways. Urban land is contested, grid connections can be difficult, and permits and community impacts matter. The same area may also contain users, network facilities, skilled workers, industrial land and customers for waste heat. Our locator measures some physical proximity, especially grid, selected industry and treatment plants. It does not price land or prove a workforce, a heat contract or a fiber route. We therefore treat density as a reason to investigate specific sites, not as an automatic sustainability advantage.\n\nSource: `../docs/six_page_story.md`, Page 2; `../README_DATA.md`."}
+{"kind":"slide","id":"sl/6sgrne","slide":3,"title":"One site can connect six systems","textShapes":10}
+{"kind":"textbox","id":"sh/jqt8rypo","slide":3,"name":"s3-title","text":"One site can connect six systems","textPreview":"One site can connect six systems","textChars":32,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/krm90j69","slide":3,"name":"s3-number","text":"03/07","textPreview":"03/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/5svqto7u","slide":3,"bbox":[72,151,1136,0]}
+{"kind":"shape","id":"sh/a1k7u9o7","slide":3,"bbox":[640,232,0,174]}
+{"kind":"shape","id":"sh/v2t8neps","slide":3,"bbox":[301,325,339,81]}
+{"kind":"shape","id":"sh/wn2pwj6x","slide":3,"bbox":[640,325,336,81]}
+{"kind":"shape","id":"sh/xobqpo7i","slide":3,"bbox":[302,406,338,126]}
+{"kind":"shape","id":"sh/ux4r6dob","slide":3,"bbox":[640,406,0,164]}
+{"kind":"shape","id":"sh/fyd8zipw","slide":3,"bbox":[640,406,338,126]}
+{"kind":"shape","id":"sh/7epofmho","slide":3,"bbox":[627,219,26,26]}
+{"kind":"textbox","id":"sh/mdgn6hg3","slide":3,"text":"GRID ASSETS","textPreview":"GRID ASSETS","textChars":11,"textLines":1,"bbox":[532,183,216,41]}
+{"kind":"shape","id":"sh/9g76hwze","slide":3,"bbox":[288,312,26,26]}
+{"kind":"textbox","id":"sh/8fy58ryt","slide":3,"text":"CARRIER ROUTES","textPreview":"CARRIER ROUTES","textChars":14,"textLines":1,"bbox":[105,290,226,41]}
+{"kind":"shape","id":"sh/vipoj6hk","slide":3,"bbox":[963,312,26,26]}
+{"kind":"textbox","id":"sh/uhgna1gz","slide":3,"text":"INFERENCE USERS","textPreview":"INFERENCE USERS","textChars":15,"textLines":1,"bbox":[978,288,210,41]}
+{"kind":"shape","id":"sh/h4r6lwzq","slide":3,"bbox":[289,519,26,26]}
+{"kind":"textbox","id":"sh/w3ipcry5","slide":3,"text":"HEAT CUSTOMERS","textPreview":"HEAT CUSTOMERS","textChars":14,"textLines":1,"bbox":[107,535,230,41]}
+{"kind":"shape","id":"sh/j69on6hg","slide":3,"bbox":[627,557,26,26]}
+{"kind":"textbox","id":"sh/i507e1gb","slide":3,"text":"TREATMENT WATER","textPreview":"TREATMENT WATER","textChars":15,"textLines":1,"bbox":[524,605,232,41]}
+{"kind":"shape","id":"sh/ed4z294f","slide":3,"bbox":[965,519,26,26]}
+{"kind":"textbox","id":"sh/zed0ve50","slide":3,"text":"REUSED LAND","textPreview":"REUSED LAND","textChars":11,"textLines":1,"bbox":[993,535,210,41]}
+{"kind":"shape","id":"sh/0f6h4zml","slide":3,"bbox":[549,315,182,182]}
+{"kind":"textbox","id":"sh/1gfix4n6","slide":3,"text":"URBAN\nINFERENCE\nSITE","textPreview":"URBAN | INFERENCE | SITE","textChars":20,"textLines":3,"bbox":[552,348,176,116]}
+{"kind":"textbox","id":"sh/q94zyp4j","slide":3,"text":"Proximity starts the case. Engineering and contracts complete it.","textPreview":"Proximity starts the case. Engineering and contracts complete it.","textChars":65,"textLines":1,"bbox":[82,654,1120,39]}
+{"kind":"notes","id":"nt/6sgrne","slide":3,"text":"This diagram is the project thesis. A prospective inference site sits inside six surrounding systems. Grid assets may support an interconnection. Carrier routes and nearby users make a metro service plausible. Industrial neighbors might use low-grade heat. A treatment plant might support a reclaimed-water cooling design. Reusing an industrial footprint may reduce some new land or material needs. The current project maps candidate points and nearby source records. It does not prove any connection, available megawatts, usable water, heat demand or parcel rights. Each link is a due-diligence question.\n\nSource: `../README_DATA.md`, Steps 1–12; `../outputs/validation/validation_report.md`."}
+{"kind":"slide","id":"sl/ntv2hl","slide":4,"title":"The locator turns national records into site evidence","textShapes":10}
+{"kind":"textbox","id":"sh/83u1ob61","slide":4,"name":"s4-title","text":"The locator turns national records into site evidence","textPreview":"The locator turns national records into site evidence","textChars":53,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/72l0v6pg","slide":4,"name":"s4-number","text":"04/07","textPreview":"04/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/61cjmlob","slide":4,"bbox":[72,151,1136,0]}
+{"kind":"textbox","id":"sh/hsni10ny","slide":4,"text":"190,976","textPreview":"190,976","textChars":7,"textLines":1,"bbox":[91,212,445,120]}
+{"kind":"textbox","id":"sh/g7u1sv6d","slide":4,"text":"EPA site records","textPreview":"EPA site records","textChars":16,"textLines":1,"bbox":[94,332,430,52]}
+{"kind":"shape","id":"sh/v6l0zq5s","slide":4,"bbox":[545,305,106,0]}
+{"kind":"textbox","id":"sh/u5cjqlo7","slide":4,"text":"8,479","textPreview":"8,479","textChars":5,"textLines":1,"bbox":[679,212,460,120]}
+{"kind":"textbox","id":"sh/xwjipw7e","slide":4,"text":"screened candidates","textPreview":"screened candidates","textChars":19,"textLines":1,"bbox":[685,332,440,52]}
+{"kind":"shape","id":"sh/wba1gr6t","slide":4,"bbox":[92,420,1097,0]}
+{"kind":"textbox","id":"sh/mx0rmdwj","slide":4,"text":"INFRASTRUCTURE\nINHERITANCE","textPreview":"INFRASTRUCTURE | INHERITANCE","textChars":26,"textLines":2,"bbox":[97,453,440,96]}
+{"kind":"textbox","id":"sh/ny98vix4","slide":4,"text":"INDUSTRIAL\nSYMBIOSIS","textPreview":"INDUSTRIAL | SYMBIOSIS","textChars":20,"textLines":2,"bbox":[681,453,430,96]}
+{"kind":"textbox","id":"sh/ozi9onep","slide":4,"text":"Two independent axes","textPreview":"Two independent axes","textChars":20,"textLines":1,"bbox":[98,580,420,46]}
+{"kind":"textbox","id":"sh/90bqhsfa","slide":4,"text":"Local 5 km facility context","textPreview":"Local 5 km facility context","textChars":27,"textLines":1,"bbox":[685,580,477,46]}
+{"kind":"notes","id":"nt/ntv2hl","slide":4,"text":"Here is what we have actually built. We start with 190,976 EPA RE-Powering records. Reported acreage and grid-distance thresholds yield 8,479 screened candidates. Each receives two separate opportunity scores. Infrastructure inheritance uses former power, transmission, substation, land and transport evidence. Industrial symbiosis uses selected manufacturing proximity and treatment-plant opportunity. The explorer exposes source values and a five-kilometer local ecosystem. Connectivity indicators sit in a separate preview, not in either score. The original 50-acre threshold also means compact urban parcels are missing from this candidate pool.\n\nSource: `../outputs/validation/step1_summary.json`; `../outputs/validation/step7_summary.json`; `../README_DATA.md`."}
+{"kind":"slide","id":"sl/fy7khk","slide":5,"title":"Two axes make urban tradeoffs visible","textShapes":15}
+{"kind":"textbox","id":"sh/knutgrqp","slide":5,"name":"s5-title","text":"Two axes make urban tradeoffs visible","textPreview":"Two axes make urban tradeoffs visible","textChars":37,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/jmls7m94","slide":5,"name":"s5-number","text":"05/07","textPreview":"05/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/ilcbe18j","slide":5,"bbox":[72,151,1136,0]}
+{"kind":"shape","id":"sh/tsnadgr6","slide":5,"bbox":[155,608,625,0]}
+{"kind":"shape","id":"sh/sretkbql","slide":5,"bbox":[155,215,0,393]}
+{"kind":"shape","id":"sh/7q5sb69g","slide":5,"bbox":[530,215,0,393]}
+{"kind":"shape","id":"sh/6pcbi18v","slide":5,"bbox":[155,313.25,625,0]}
+{"kind":"textbox","id":"sh/9wja1cr2","slide":5,"text":"60","textPreview":"60","textChars":2,"textLines":1,"bbox":[512,619,40,29]}
+{"kind":"textbox","id":"sh/8vat87ah","slide":5,"text":"75","textPreview":"75","textChars":2,"textLines":1,"bbox":[111,300.25,38,26]}
+{"kind":"textbox","id":"sh/290ni54f","slide":5,"text":"Inheritance","textPreview":"Inheritance","textChars":11,"textLines":1,"bbox":[542,635,230,38]}
+{"kind":"textbox","id":"sh/3a9ora50","slide":5,"text":"Symbiosis","textPreview":"Symbiosis","textChars":9,"textLines":1,"bbox":[83,173,125,35]}
+{"kind":"shape","id":"sh/ob25kfml","slide":5,"bbox":[635.38,231.68,20,20]}
+{"kind":"textbox","id":"sh/pcb6t0nq","slide":5,"text":"Astoria","textPreview":"Astoria","textChars":7,"textLines":1,"bbox":[662.38,201.68,160,37]}
+{"kind":"shape","id":"sh/qdknm54b","slide":5,"bbox":[527.44,283.64,20,20]}
+{"kind":"textbox","id":"sh/bytova5w","slide":5,"text":"Salem","textPreview":"Salem","textChars":5,"textLines":1,"bbox":[552.44,294.64,125,37]}
+{"kind":"shape","id":"sh/cz25ofmh","slide":5,"bbox":[703.25,328.05,20,20]}
+{"kind":"textbox","id":"sh/x0b6xkn2","slide":5,"text":"Indian Point","textPreview":"Indian Point","textChars":12,"textLines":1,"bbox":[553.25,342.05,155,37]}
+{"kind":"shape","id":"sh/y1k7qp4n","slide":5,"bbox":[334.19,205,20,20]}
+{"kind":"textbox","id":"sh/z2dozu58","slide":5,"text":"Davis Street","textPreview":"Davis Street","textChars":12,"textLines":1,"bbox":[282.19,174,180,37]}
+{"kind":"textbox","id":"sh/v6d4nu10","slide":5,"text":"Astoria","textPreview":"Astoria","textChars":7,"textLines":1,"bbox":[870,230,304,43]}
+{"kind":"textbox","id":"sh/u54nepkv","slide":5,"text":"78.46  /  93.21","textPreview":"78.46  /  93.21","textChars":15,"textLines":1,"bbox":[870,278,320,46]}
+{"kind":"textbox","id":"sh/h8vmp4j6","slide":5,"text":"Salem","textPreview":"Salem","textChars":5,"textLines":1,"bbox":[870,370,304,43]}
+{"kind":"textbox","id":"sh/w7m5gz2l","slide":5,"text":"61.19  /  79.99","textPreview":"61.19  /  79.99","textChars":15,"textLines":1,"bbox":[870,418,320,46]}
+{"kind":"textbox","id":"sh/72d4ja14","slide":5,"text":"Connectivity remains a separate exploratory view.","textPreview":"Connectivity remains a separate exploratory view.","textChars":49,"textLines":1,"bbox":[870,523,318,97]}
+{"kind":"notes","id":"nt/fy7khk","slide":5,"text":"The separate axes make tradeoffs visible. Astoria and the Salem-area New England Power Company record both clear the current high-high thresholds. Indian Point has stronger inheritance but less surrounding symbiosis. Davis Street shows the opposite pattern and has an active facility-use question. Scores narrow the field. They do not settle parcel availability or data-center feasibility. The separate connectivity view tells us which facilities to investigate further, but its distance to a listed IXP-hosting building cannot establish user latency or a fiber contract.\n\nSource: `../outputs/validation/step6_upper_right.csv`; `../outputs/validation/step11_selected_sites.csv`; `../outputs/validation/power_connectivity_review.md`."}
+{"kind":"slide","id":"sl/v72mgz","slide":6,"title":"Astoria is the first due-diligence lead","textShapes":12}
+{"kind":"textbox","id":"sh/7alsn6xg","slide":6,"name":"s6-title","text":"Astoria is the first due-diligence lead","textPreview":"Astoria is the first due-diligence lead","textChars":39,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/8betgbe1","slide":6,"name":"s6-number","text":"06/07","textPreview":"06/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/tcnupgfm","slide":6,"bbox":[72,151,1136,0]}
+{"kind":"textbox","id":"sh/y5cba1wz","slide":6,"text":"ASTORIA","textPreview":"ASTORIA","textChars":7,"textLines":1,"bbox":[77,206,676,103]}
+{"kind":"textbox","id":"sh/j6lsj6x4","slide":6,"text":"Queens, NY  ·  EPA site 40157","textPreview":"Queens, NY  ·  EPA site 40157","textChars":29,"textLines":1,"bbox":[84,310,660,47]}
+{"kind":"shape","id":"sh/k7utcrep","slide":6,"bbox":[80,389,1116,0]}
+{"kind":"textbox","id":"sh/l83alwfa","slide":6,"text":"78.46","textPreview":"78.46","textChars":5,"textLines":1,"bbox":[87,422,287,82]}
+{"kind":"textbox","id":"sh/ahsbmhwn","slide":6,"text":"inheritance","textPreview":"inheritance","textChars":11,"textLines":1,"bbox":[92,509,277,41]}
+{"kind":"textbox","id":"sh/b21sfmx8","slide":6,"text":"93.21","textPreview":"93.21","textChars":5,"textLines":1,"bbox":[429,422,275,82]}
+{"kind":"textbox","id":"sh/7y1or2dg","slide":6,"text":"symbiosis","textPreview":"symbiosis","textChars":9,"textLines":1,"bbox":[433,509,268,41]}
+{"kind":"textbox","id":"sh/6xsnyhwv","slide":6,"text":"37","textPreview":"37","textChars":2,"textLines":1,"bbox":[811,426,175,77]}
+{"kind":"textbox","id":"sh/t0j6tcvm","slide":6,"text":"selected-manufacturing FRS IDs\n34 coordinate groups · within 5 km","textPreview":"selected-manufacturing FRS IDs | 34 coordinate groups · within 5 km","textChars":65,"textLines":2,"bbox":[814,503,378,65]}
+{"kind":"textbox","id":"sh/szap07e1","slide":6,"text":"Food 3  ·  Beverage 4  ·  Paper 6  ·  Chemicals 15  ·  Primary metals 9","textPreview":"Food 3  ·  Beverage 4  ·  Paper 6  ·  Chemicals 15  ·  Primary metals 9","textChars":71,"textLines":1,"bbox":[84,568,1110,40]}
+{"kind":"textbox","id":"sh/fm1ovmds","slide":6,"text":"Potential heat-reuse leads; operations, heat demand/temperature, pipes and partner interest unverified.","textPreview":"Potential heat-reuse leads; operations, heat demand/temperature, pipes and partner interest unverified.","textChars":103,"textLines":1,"bbox":[84,629,1110,58]}
+{"kind":"notes","id":"nt/v72mgz","slide":6,"text":"Our first diligence lead is Astoria in Queens, EPA candidate 40157. It scores 78.46 for infrastructure inheritance and 93.21 for industrial symbiosis. An independent recount found 37 distinct FRS facility IDs within five kilometers, across 34 coordinate groups. The selected manufacturing categories are food 3, beverage 4, paper 6, chemicals 15, and primary metals 9. These records suggest heat-reuse opportunities to investigate; they are not confirmed heat customers. Current operations, heat quantity and temperature, pipe feasibility, and willingness to partner have not been checked. Nor have parcel rights, utility capacity, or network performance. Astoria is a diligence lead, not a construction-ready site.\n\nSource: `../outputs/validation/step6_upper_right.csv`; `../data/processed/site_features.parquet`; `../outputs/validation/validation_report.md`; user-provided independent Astoria recount of FRS IDs, coordinates and categories."}
+{"kind":"slide","id":"sl/54jwz6","slide":7,"title":"Metro proximity can support a 30-year strategy","textShapes":11}
+{"kind":"textbox","id":"sh/o3u5g7ax","slide":7,"name":"s7-title","text":"Metro proximity can support a 30-year strategy","textPreview":"Metro proximity can support a 30-year strategy","textChars":46,"textLines":1,"bbox":[72,42,1100,100]}
+{"kind":"textbox","id":"sh/n2l4n29c","slide":7,"name":"s7-number","text":"07/07","textPreview":"07/07","textChars":5,"textLines":1,"bbox":[1168,48,58,36]}
+{"kind":"shape","id":"sh/m1c3exsr","slide":7,"bbox":[72,151,1136,0]}
+{"kind":"textbox","id":"sh/103mlsrm","slide":7,"text":"DEMAND ANCHOR","textPreview":"DEMAND ANCHOR","textChars":13,"textLines":1,"bbox":[82,190,245,64]}
+{"kind":"textbox","id":"sh/0zulc7a1","slide":7,"text":"Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.","textPreview":"Residents and firms change location gradually. Latency-sensitive demand may stay tied to the metro.","textChars":99,"textLines":1,"bbox":[354,189,833,84]}
+{"kind":"textbox","id":"sh/zyl4j29g","slide":7,"text":"LAND OPTION","textPreview":"LAND OPTION","textChars":11,"textLines":1,"bbox":[82,320,245,64]}
+{"kind":"textbox","id":"sh/exc3axsv","slide":7,"text":"Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.","textPreview":"Suburban sites near fiber and grid are scarcer than rural acreage. Preserve expansion room early.","textChars":97,"textLines":1,"bbox":[354,319,833,84]}
+{"kind":"textbox","id":"sh/5w7mxwrq","slide":7,"text":"DURABLE LINKS","textPreview":"DURABLE LINKS","textChars":13,"textLines":1,"bbox":[82,450,245,64]}
+{"kind":"textbox","id":"sh/kve5ora5","slide":7,"text":"Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.","textPreview":"Power, carrier and heat links can outlast GPUs. Refresh hardware and reroute work as demand changes.","textChars":100,"textLines":1,"bbox":[354,449,833,84]}
+{"kind":"shape","id":"sh/yl4b2lgr","slide":7,"bbox":[82,301,1116,0]}
+{"kind":"shape","id":"sh/jmxsb6hc","slide":7,"bbox":[82,431,1116,0]}
+{"kind":"shape","id":"sh/k76t4byx","slide":7,"bbox":[126,621,1028,0]}
+{"kind":"shape","id":"sh/l8fadgz2","slide":7,"bbox":[170,612,18,18]}
+{"kind":"textbox","id":"sh/ah4by1gf","slide":7,"text":"2030  VERIFY","textPreview":"2030  VERIFY","textChars":12,"textLines":1,"bbox":[40,643,278,39]}
+{"kind":"shape","id":"sh/bids76h0","slide":7,"bbox":[631,612,18,18]}
+{"kind":"textbox","id":"sh/wjmt0byl","slide":7,"text":"2040  PHASE","textPreview":"2040  PHASE","textChars":11,"textLines":1,"bbox":[501,643,278,39]}
+{"kind":"shape","id":"sh/xkva9gz6","slide":7,"bbox":[1091,612,18,18]}
+{"kind":"textbox","id":"sh/udoba5gz","slide":7,"text":"2050  REASSESS","textPreview":"2050  REASSESS","textChars":14,"textLines":1,"bbox":[961,643,278,39]}
+{"kind":"notes","id":"nt/54jwz6","slide":7,"text":"The long-term case rests on more than today's score. Residents and firms generally do not relocate across regions all at once, so a metro can remain a useful catchment for latency-sensitive services. That is a planning premise, not a thirty-year demand forecast; we would recheck migration and workloads at every phase. Suitable suburban parcels near fiber and grid are also more limited than remote acreage, making site options valuable. Utility, carrier and heat links may last longer than one GPU generation. We can refresh hardware and shift eligible work to regional facilities as needs change. First, though, we still need parcel, utility, carrier and heat-use diligence. The timeline remains conditional.\n\nSource: `../docs/six_page_story.md`, Pages 4–6."}

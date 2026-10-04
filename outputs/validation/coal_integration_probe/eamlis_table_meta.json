@@ -1,0 +1,169 @@
+{
+ "currentVersion": 11.1,
+ "cimVersion": "3.1.0",
+ "id": 1,
+ "name": "eAMLIS.dbo.Mapping",
+ "type": "Table",
+ "description": null,
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeNone",
+ "displayField": "PA_NAME",
+ "typeIdField": null,
+ "subtypeFieldName": null,
+ "subtypeField": null,
+ "defaultSubtypeCode": null,
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "domain": null
+  },
+  {
+   "name": "AMLIS_KEY",
+   "type": "esriFieldTypeString",
+   "alias": "AMLIS_KEY",
+   "length": 11,
+   "domain": null
+  },
+  {
+   "name": "LATITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LATITUDE",
+   "domain": null
+  },
+  {
+   "name": "LONGITUDE",
+   "type": "esriFieldTypeDouble",
+   "alias": "LONGITUDE",
+   "domain": null
+  },
+  {
+   "name": "PA_NUMBER",
+   "type": "esriFieldTypeInteger",
+   "alias": "PA_NUMBER",
+   "domain": null
+  },
+  {
+   "name": "PA_NAME",
+   "type": "esriFieldTypeString",
+   "alias": "PA_NAME",
+   "length": 35,
+   "domain": null
+  },
+  {
+   "name": "MINE_TYPE",
+   "type": "esriFieldTypeString",
+   "alias": "MINE_TYPE",
+   "length": 1,
+   "domain": null
+  },
+  {
+   "name": "ORE_TYPES",
+   "type": "esriFieldTypeString",
+   "alias": "ORE_TYPES",
+   "length": 50,
+   "domain": null
+  },
+  {
+   "name": "OWNER_PRIVATE",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_PRIVATE",
+   "domain": null
+  },
+  {
+   "name": "OWNER_STATE",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_STATE",
+   "domain": null
+  },
+  {
+   "name": "OWNER_INDIAN",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_INDIAN",
+   "domain": null
+  },
+  {
+   "name": "OWNER_BLM",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_BLM",
+   "domain": null
+  },
+  {
+   "name": "OWNER_FOREST",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_FOREST",
+   "domain": null
+  },
+  {
+   "name": "OWNER_NATIONAL",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_NATIONAL",
+   "domain": null
+  },
+  {
+   "name": "OWNER_OTHER",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "OWNER_OTHER",
+   "domain": null
+  }
+ ],
+ "indexes": [
+  {
+   "name": "PK_Mapping",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  },
+  {
+   "name": "FDO_OBJECTID",
+   "fields": "OBJECTID",
+   "isAscending": true,
+   "isUnique": true,
+   "description": ""
+  }
+ ],
+ "subtypes": [],
+ "relationships": [],
+ "capabilities": "Map,Query,Data",
+ "maxRecordCount": 2000,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportedQueryFormats": "JSON, PBF",
+ "isDataVersioned": false,
+ "useStandardizedQueries": true,
+ "advancedQueryCapabilities": {
+  "useStandardizedQueries": true,
+  "supportsStatistics": true,
+  "supportsPercentileStatistics": true,
+  "supportsHavingClause": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsCountDistinct": true,
+  "supportsPagination": true,
+  "supportsTrueCurve": false,
+  "supportsReturningQueryExtent": true,
+  "supportsQueryWithDistance": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsSqlFormat": false,
+  "supportsQueryAnalytic": true
+ },
+ "advancedQueryAnalyticCapabilities": {
+  "supportsLinearRegression": true,
+  "supportsAsync": false,
+  "supportsPercentileAnalytic": true
+ },
+ "dateFieldsTimeReference": null,
+ "preferredTimeReference": null,
+ "datesInUnknownTimezone": false,
+ "hasMetadata": true,
+ "isDataArchived": false,
+ "archivingInfo": {
+  "supportsQueryWithHistoricMoment": false,
+  "startArchivingMoment": -1
+ },
+ "serviceItemId": "361cbac751d747998d65dffc7c2fb90c"
+}

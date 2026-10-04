@@ -1,0 +1,402 @@
+{
+  "schema_version": 1,
+  "candidate_scope": "Existing EPA screened candidates · ≥50-acre source cohort",
+  "epa_source_version": "EPA RE-Powering America’s Land Initiative, 2022 release updated 2023",
+  "peeringdb": {
+    "snapshot_id": "20261003T233324Z",
+    "status": "ready",
+    "started_at": "2026-10-03T23:33:24.298648Z",
+    "completed_at": "2026-10-03T23:33:25.668704Z",
+    "retrieved_at": "2026-10-03T23:33:25.668704Z",
+    "raw_row_count": 1377,
+    "eligible_facility_count": 478,
+    "rejected_record_count": 899,
+    "rejected_by_reason": {
+      "invalid_coordinates": 23,
+      "no_ixp": 876
+    },
+    "network_count_missing_facilities": 0,
+    "page_count": 7,
+    "pages": [
+      {
+        "file": "pages/fac_page_00000.json",
+        "sha256": "9e344977e95762e0007b14a26a927e8526f96ee42f2ebe3ec903cf3a9d8005da",
+        "count": 250,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:24.298806Z",
+        "ended_at": "2026-10-03T23:33:24.572739Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 0
+        }
+      },
+      {
+        "file": "pages/fac_page_00001.json",
+        "sha256": "04dad0b1e9ae2dd774a5fe4b3ae5c58f74766ff0f3343ef6a05f9564784bc3f5",
+        "count": 250,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:24.574942Z",
+        "ended_at": "2026-10-03T23:33:24.765398Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 250
+        }
+      },
+      {
+        "file": "pages/fac_page_00002.json",
+        "sha256": "dd9406260f5295acb3a2c773174d67bbd1922b2a10d4bff84acfe6eeccc9280e",
+        "count": 250,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:24.768495Z",
+        "ended_at": "2026-10-03T23:33:24.990241Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 500
+        }
+      },
+      {
+        "file": "pages/fac_page_00003.json",
+        "sha256": "b1f7258d050191101c0365fb4459f43f6304d0ceb3332bc6b34d65a5d629f1da",
+        "count": 250,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:24.993208Z",
+        "ended_at": "2026-10-03T23:33:25.168130Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 750
+        }
+      },
+      {
+        "file": "pages/fac_page_00004.json",
+        "sha256": "52e58f3598d28a9a2533c0faf29958b72f055609293bc214a76806f869de777a",
+        "count": 250,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:25.171441Z",
+        "ended_at": "2026-10-03T23:33:25.357792Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 1000
+        }
+      },
+      {
+        "file": "pages/fac_page_00005.json",
+        "sha256": "ee290232ca989ab2aa10d7ca0200802c9fda4674d7af06979a8f9ce59f2f2917",
+        "count": 127,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:25.360868Z",
+        "ended_at": "2026-10-03T23:33:25.523576Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 1250
+        }
+      },
+      {
+        "file": "pages/fac_page_00006.json",
+        "sha256": "8113ad651e4fbf1abc5975a1eb8d440fb56066d6e0bcfd214751896cf194d674",
+        "count": 0,
+        "http_status": 200,
+        "started_at": "2026-10-03T23:33:25.526208Z",
+        "ended_at": "2026-10-03T23:33:25.666123Z",
+        "parameters": {
+          "country": "US",
+          "status": "ok",
+          "depth": "0",
+          "fields": "id,name,country,state,city,latitude,longitude,status,ix_count,net_count,updated",
+          "limit": 250,
+          "skip": 1377
+        }
+      }
+    ],
+    "snapshot_sha256": "35dc046731d6e107cecb620c90e9974e3ba64730b98342c9df270d6305b537d7",
+    "hash_method": "SHA-256 over each manifest-ordered page file path, newline, page SHA-256, newline."
+  },
+  "candidate_linkage": {
+    "site_rows": 8479,
+    "metric_rows": 8479,
+    "site_ids_match_exactly": true,
+    "status_counts": {
+      "matched": 8479
+    },
+    "nearest_facility_relations": 8479,
+    "unique_nearest_facility_count": 283,
+    "all_references_valid": true,
+    "network_count_matches_referenced_facility": true
+  },
+  "metrics": {
+    "substation_distance_km": {
+      "label": "Nearest substation distance",
+      "unit": "km",
+      "direction": "smaller is geographically closer",
+      "definition": "Existing EPA nearest-substation distance in miles × 1.609344.",
+      "row_count": 8479,
+      "known_count": 8479,
+      "unknown_count": 0,
+      "zero_count": 896,
+      "minimum": 0.0,
+      "maximum": 8.043934531262323,
+      "median": 2.0571184053882,
+      "minimum_examples": [
+        {
+          "site_id": 126,
+          "facility_id": 6085,
+          "value": 0.0
+        },
+        {
+          "site_id": 201,
+          "facility_id": 3441,
+          "value": 0.0
+        },
+        {
+          "site_id": 219,
+          "facility_id": 14600,
+          "value": 0.0
+        },
+        {
+          "site_id": 227,
+          "facility_id": 16052,
+          "value": 0.0
+        },
+        {
+          "site_id": 315,
+          "facility_id": 16052,
+          "value": 0.0
+        }
+      ],
+      "maximum_examples": [
+        {
+          "site_id": 145432,
+          "facility_id": 8032,
+          "value": 8.043934531262323
+        },
+        {
+          "site_id": 18762,
+          "facility_id": 6670,
+          "value": 8.040729290782293
+        },
+        {
+          "site_id": 160036,
+          "facility_id": 1423,
+          "value": 8.034453616293579
+        },
+        {
+          "site_id": 171455,
+          "facility_id": 7740,
+          "value": 8.03372142056846
+        },
+        {
+          "site_id": 158165,
+          "facility_id": 1423,
+          "value": 8.022761328857849
+        }
+      ],
+      "unknown_examples": []
+    },
+    "peering_facility_distance_km": {
+      "label": "Nearest listed IXP facility distance",
+      "unit": "km",
+      "direction": "smaller is geographically closer",
+      "definition": "WGS84 ellipsoidal geodesic to the nearest eligible US PeeringDB facility hosting an IXP.",
+      "row_count": 8479,
+      "known_count": 8479,
+      "unknown_count": 0,
+      "zero_count": 0,
+      "minimum": 0.19330591495012106,
+      "maximum": 1710.3882190336587,
+      "median": 72.00687521083448,
+      "minimum_examples": [
+        {
+          "site_id": 38104,
+          "facility_id": 468,
+          "value": 0.19330591495012106
+        },
+        {
+          "site_id": 140226,
+          "facility_id": 468,
+          "value": 0.19965232871082214
+        },
+        {
+          "site_id": 202590,
+          "facility_id": 7872,
+          "value": 0.23803769195914276
+        },
+        {
+          "site_id": 138135,
+          "facility_id": 7872,
+          "value": 0.24576332638939338
+        },
+        {
+          "site_id": 154313,
+          "facility_id": 585,
+          "value": 0.2876270797386181
+        }
+      ],
+      "maximum_examples": [
+        {
+          "site_id": 43735,
+          "facility_id": 3441,
+          "value": 1710.3882190336587
+        },
+        {
+          "site_id": 210,
+          "facility_id": 3441,
+          "value": 1708.5563419159937
+        },
+        {
+          "site_id": 43734,
+          "facility_id": 3441,
+          "value": 1708.1191118451213
+        },
+        {
+          "site_id": 40903,
+          "facility_id": 3441,
+          "value": 1689.2879243834811
+        },
+        {
+          "site_id": 201,
+          "facility_id": 3441,
+          "value": 1688.145662379303
+        }
+      ],
+      "unknown_examples": []
+    },
+    "peering_facility_network_count": {
+      "label": "Networks at that nearest facility",
+      "unit": "registered networks",
+      "direction": "larger is more networks listed in PeeringDB",
+      "definition": "PeeringDB net_count from the same facility selected for the nearest-facility distance.",
+      "row_count": 8479,
+      "known_count": 8479,
+      "unknown_count": 0,
+      "zero_count": 21,
+      "minimum": 0,
+      "maximum": 334,
+      "median": 7.0,
+      "minimum_examples": [
+        {
+          "site_id": 2679,
+          "facility_id": 766,
+          "value": 0
+        },
+        {
+          "site_id": 5095,
+          "facility_id": 766,
+          "value": 0
+        },
+        {
+          "site_id": 15049,
+          "facility_id": 766,
+          "value": 0
+        },
+        {
+          "site_id": 16208,
+          "facility_id": 766,
+          "value": 0
+        },
+        {
+          "site_id": 24208,
+          "facility_id": 766,
+          "value": 0
+        }
+      ],
+      "maximum_examples": [
+        {
+          "site_id": 1087,
+          "facility_id": 7,
+          "value": 334
+        },
+        {
+          "site_id": 1248,
+          "facility_id": 7,
+          "value": 334
+        },
+        {
+          "site_id": 1255,
+          "facility_id": 7,
+          "value": 334
+        },
+        {
+          "site_id": 25007,
+          "facility_id": 7,
+          "value": 334
+        },
+        {
+          "site_id": 34826,
+          "facility_id": 7,
+          "value": 334
+        }
+      ],
+      "unknown_examples": []
+    }
+  },
+  "fixed_random_sample": {
+    "seed": 20261003,
+    "selection": "numpy default_rng(seed).choice without replacement; emitted in draw order",
+    "rows": [
+      {
+        "site_id": 42171,
+        "facility_id": 2621,
+        "substation_distance_km": 0.18520439911693354,
+        "peering_facility_distance_km": 83.03853516773289,
+        "peering_facility_network_count": 8
+      },
+      {
+        "site_id": 159156,
+        "facility_id": 1423,
+        "substation_distance_km": 5.289686284013659,
+        "peering_facility_distance_km": 52.93313119996074,
+        "peering_facility_network_count": 7
+      },
+      {
+        "site_id": 160343,
+        "facility_id": 1423,
+        "substation_distance_km": 4.813319276680317,
+        "peering_facility_distance_km": 89.52462200786009,
+        "peering_facility_network_count": 7
+      },
+      {
+        "site_id": 171671,
+        "facility_id": 710,
+        "substation_distance_km": 4.031317433695773,
+        "peering_facility_distance_km": 143.71858242166144,
+        "peering_facility_network_count": 10
+      },
+      {
+        "site_id": 150726,
+        "facility_id": 3669,
+        "substation_distance_km": 0.5073607296709529,
+        "peering_facility_distance_km": 61.145324113436196,
+        "peering_facility_network_count": 4
+      }
+    ]
+  },
+  "limitations": [
+    "The 8,479 rows are the existing EPA screened cohort; they are not a national inventory of small urban or industrial parcels.",
+    "PeeringDB facilities are US records with at least one listed IXP; this is not a complete fiber, carrier PoP, or data-center inventory.",
+    "Geographic proximity does not establish available power, interconnection capacity, network latency, bandwidth, route diversity, or service rights.",
+    "No combined score or 100 MW feasibility certification is derived from these three indicators."
+  ]
+}
